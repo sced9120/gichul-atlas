@@ -437,5 +437,204 @@
    "$\\frac{49}{3}$"
   ],
   "outOfCurriculum": true
+ },
+ {
+  "id": "edu-2024-03-g1-q16",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 3,
+   "grade": "고1",
+   "no": 16
+  },
+  "subject": "공통수학2",
+  "unit": "함수와 그래프",
+  "standards": [
+   "[10공수2-03-04]",
+   "[10공수2-03-01]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "반비례 그래프(y=a/x)",
+   "삼각형의 닮음",
+   "사다리꼴의 넓이"
+  ],
+  "stem": "그림과 같이 양수 $a$에 대하여 두 반비례 관계 $y=\\frac{a}{x}$, $y=-\\frac{2a}{x}$ 의 그래프가 직선 $y=6$과 만나는 점을 각각 A, B라 하고, 두 선분 OA, OB가 직선 $y=3$과 만나는 점을 각각 C, D라 하자. 사각형 ABDC의 넓이가 27일 때, $a$의 값은? (단, O는 원점이다.)",
+  "choices": [
+   "12",
+   "15",
+   "18",
+   "21",
+   "24"
+  ],
+  "figure": "images/edu-2024-03-g1-q16-fig.png",
+  "figureWidthMm": 70,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-03-g1-q17",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 3,
+   "grade": "고1",
+   "no": 17
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "standards": [
+   "[10공수1-02-04]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "이차함수의 그래프",
+   "삼각형의 넓이",
+   "직선의 방정식"
+  ],
+  "stem": "그림과 같이 원점 O를 지나고 제4사분면 위의 점 A를 꼭짓점으로 하는 이차함수 $y=f(x)$의 그래프가 있다. 두 점 B$(-5,\\,0)$, C$(0,\\,-6)$에 대하여 선분 AB와 선분 OC가 점 D에서 만난다. 삼각형 OCA의 넓이가 6이고, 삼각형 OBD의 넓이와 삼각형 DCA의 넓이가 같을 때, $f(10)$의 값은? (단, 점 D는 점 C가 아니다.)",
+  "choices": [
+   "32",
+   "33",
+   "34",
+   "35",
+   "36"
+  ],
+  "figure": "images/edu-2024-03-g1-q17-fig.png",
+  "figureWidthMm": 60,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-03-g1-q19",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 3,
+   "grade": "고1",
+   "no": 19
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "standards": [
+   "[10공수1-02-02]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "삼각형의 넓이",
+   "이차방정식의 풀이"
+  ],
+  "stem": "한 변의 길이가 $x\\,(x>4)$인 정사각형 ABCD에 대하여 선분 CD 위에 $\\overline{CE}$$=2$인 점 E와 선분 AD 위에 $\\overline{FD}$$=2$인 점 F가 있다. 선분 BC의 연장선 위에 $\\overline{CG}$$=x-2$인 점 G를 잡을 때, 삼각형 EGF의 넓이는 7이다. $x$의 값은?",
+  "choices": [
+   "$2+2\\sqrt{2}$",
+   "$2+3\\sqrt{2}$",
+   "$3+3\\sqrt{2}$",
+   "$4+3\\sqrt{2}$",
+   "$3+4\\sqrt{2}$"
+  ],
+  "figure": "images/edu-2024-03-g1-q19-fig.png",
+  "figureWidthMm": 87,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-03-g1-q21",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 3,
+   "grade": "고1",
+   "no": 21
+  },
+  "subject": "공통수학2",
+  "unit": "도형의 방정식",
+  "standards": [
+   "[10공수2-01-03]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "삼각형의 내심",
+   "피타고라스 정리",
+   "두 점 사이의 거리"
+  ],
+  "stem": "그림과 같이 $\\overline{AB}$$=$$\\overline{AC}$$=25$이고 $\\overline{BC}$$=40$인 이등변삼각형 ABC에 대하여 점 C에서 직선 AB에 내린 수선의 발을 D라 하자. 삼각형 ABC의 내심을 I, 삼각형 DBC의 내심을 J라 할 때, 선분 IJ의 길이는?",
+  "choices": [
+   "$\\frac{11\\sqrt{10}}{9}$",
+   "$\\frac{4\\sqrt{10}}{3}$",
+   "$\\frac{13\\sqrt{10}}{9}$",
+   "$\\frac{14\\sqrt{10}}{9}$",
+   "$\\frac{5\\sqrt{10}}{3}$"
+  ],
+  "figure": "images/edu-2024-03-g1-q21-fig.png",
+  "figureWidthMm": 93,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-03-g1-q22",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 3,
+   "grade": "고1",
+   "no": 22
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "standards": [
+   "[10공수1-02-06]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 6,
+  "concepts": [
+   "이차함수의 꼭짓점",
+   "완전제곱식"
+  ],
+  "stem": "이차함수 $y=x^2-2x+6$의 그래프의 꼭짓점의 좌표가 $(a,\\,b)$일 때, $a+b$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-03-g1-q29",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 3,
+   "grade": "고1",
+   "no": 29
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "standards": [
+   "[10공수1-02-04]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 9,
+  "concepts": [
+   "이차함수의 그래프",
+   "꼭짓점의 좌표",
+   "사각형의 넓이"
+  ],
+  "stem": "그림과 같이 양수 $a$에 대하여 꼭짓점이 A$(-3,\\,-a)$이고 점 B$(1,\\,0)$을 지나는 이차함수 $y=f(x)$의 그래프와 꼭짓점이 C$(3,\\,3a)$인 이차함수 $y=g(x)$의 그래프가 있다. 점 A에서 $x$축에 내린 수선의 발을 D라 할 때, 사각형 ABCD의 넓이는 16이다. 이차함수 $y=g(x)$의 그래프가 $y$축과 만나는 점이 선분 CD 위에 있을 때, $f(-1)\\times g(-3)$의 값을 구하시오.",
+  "figure": "images/edu-2024-03-g1-q29-fig.png",
+  "figureWidthMm": 103,
+  "outOfCurriculum": false
  }
 ]
