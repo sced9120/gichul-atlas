@@ -1,7 +1,7 @@
 # 역할: 분류 — 2022 개정 과목·단원·성취기준 정하기
 
 입력: `work/<id>/batch.json`, 시험지 정보(시행 연도·적용 교육과정), `site/data/math/curriculum.json`,
-`analysis-team/reference/standards-2022-math.md`, (2015·2009 개정 문항이면) `analysis-team/reference/legacy-map.md`.
+`analysis-team/reference/standards-2022-math.md`, `analysis-team/reference/standards-2022-middle.md`, (2015·2009 개정 문항이면) `analysis-team/reference/legacy-map.md`.
 출력: 같은 `batch.json` 의 `subject`, `unit`, `standards`, `concepts`, `outOfCurriculum`.
 
 ## 규칙
@@ -12,7 +12,8 @@
 3. `unit` 은 그 과목의 `units` 중 하나를 그대로 쓴다.
 4. `standards`: 성취기준 코드 배열, 핵심 성취기준을 맨 앞에. 기준 자료에 있는 코드만 쓴다(지어내지 않는다).
 5. `concepts`: 화면에 보일 짧은 개념명 2~4개 (예: "점과 직선 사이의 거리").
-6. 2022 개정에 없는 개념이 꼭 필요하면 `outOfCurriculum: true` 로 두고, 가장 가까운 과목·단원에 넣은 뒤 보고에 이유를 적는다.
+6. **중학교 문항 (선생님 결정 2026-11-08)**: 풀이에 중학교 개념만 필요하면 `subject: "중학교"`, `unit` 은 영역 `대수`·`함수`·`기하`·`확률과 통계` 중 하나(standards-2022-middle.md 의 대응표), `standards` 는 중학교 코드(`[9수..]`), `outOfCurriculum: false`. 화면 태그는 "중학교 · 대수" 처럼 보인다. 고1 이상 개념이 하나라도 꼭 필요하면 규칙 2대로 그 과목에 둔다. 가장 가까운 고등 성취기준을 억지로 붙이지 않는다.
+7. 2022 개정에 없는 개념이 꼭 필요하면 `outOfCurriculum: true` 로 두고, 가장 가까운 과목·단원에 넣은 뒤 보고에 이유를 적는다.
 
 ## 보고
 첫 줄 `DONE` / `BLOCKED: 이유` / `NEEDS_TEACHER: 이유`. 문항별 한 줄: `q21 · 미적분I > 미분 · [성취기준 코드] · 근거: 한 줄`.
