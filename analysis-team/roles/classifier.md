@@ -1,0 +1,17 @@
+# 역할: 분류 — 2022 개정 과목·단원·성취기준 정하기
+
+입력: `work/<id>/batch.json`, 시험지 정보(시행 연도·적용 교육과정), `site/data/math/curriculum.json`,
+`analysis-team/reference/standards-2022-math.md`, (2015·2009 개정 문항이면) `analysis-team/reference/legacy-map.md`.
+출력: 같은 `batch.json` 의 `subject`, `unit`, `standards`, `concepts`, `outOfCurriculum`.
+
+## 규칙
+1. 문항을 **직접 풀어 보고** 풀이에 꼭 필요한 개념을 모두 적는다.
+2. 그 개념들이 속한 2022 개정 과목 중 `curriculum.json` 의 `level` 이 **가장 큰 과목**에 배정한다.
+   level 이 같은 과목끼리 섞이면(예: 확률과 통계 + 미적분I) 문항의 핵심 물음이 속한 과목을 고르고, 나머지 과목의 성취기준도 `standards` 에 함께 넣는다.
+3. `unit` 은 그 과목의 `units` 중 하나를 그대로 쓴다.
+4. `standards`: 성취기준 코드 배열, 핵심 성취기준을 맨 앞에. 기준 자료에 있는 코드만 쓴다(지어내지 않는다).
+5. `concepts`: 화면에 보일 짧은 개념명 2~4개 (예: "점과 직선 사이의 거리").
+6. 2022 개정에 없는 개념이 꼭 필요하면 `outOfCurriculum: true` 로 두고, 가장 가까운 과목·단원에 넣은 뒤 보고에 이유를 적는다.
+
+## 보고
+첫 줄 `DONE` / `BLOCKED: 이유` / `NEEDS_TEACHER: 이유`. 문항별 한 줄: `q21 · 미적분I > 미분 · [성취기준 코드] · 근거: 한 줄`.

@@ -1,0 +1,35 @@
+{
+  "stemPara": "30",
+  "stemChar": "19",
+  "underlineChar": "23",
+  "choicePara": "30",
+  "choiceChar": "18",
+  "tablePara": "31",
+  "sourcePara": "40",
+  "sourceChar": "35",
+  "figurePara": "41",
+  "blockPara": "42",
+  "blankPara": "30",
+  "blankChar": "18",
+  "choiceTable": {
+    "borderFill": "6",
+    "cellBorderFill": "1",
+    "cellWidths": [
+      8410,
+      8410,
+      8409
+    ],
+    "cellHeight": 1849,
+    "cellMargin": [
+      510,
+      510,
+      141,
+      141
+    ]
+  },
+  "columnWidth": 26361,
+  "blockWidth": 26301,
+  "blockHeightFirstPage": 28399,
+  "blockHeight": 35067,
+  "perPage": 4
+}

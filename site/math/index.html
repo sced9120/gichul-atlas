@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>수학 · 기출 아틀라스 · HSOrbit</title>
+<meta name="description" content="고등학교 수학 기출 문항을 단원·배점·정답률로 찾고, 한글 파일(.hwpx) 시험지로 무료로 받아 보세요.">
+<meta name="theme-color" content="#f4f3ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap">
+<link rel="preload" href="/assets/fonts/KERISBAEUM_R.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/app.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap wide">
+    <div class="head-l"><a class="logo" href="https://hsorbit.uk" aria-label="HSOrbit 홈">
+      <svg viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke-linecap="round">
+        <path d="M12.95 25 A22 22 0 1 1 24.48 56.67" stroke="currentColor" stroke-width="4"></path>
+        <circle cx="32" cy="36" r="9" fill="currentColor"></circle>
+        <circle cx="51.05" cy="47" r="5" fill="var(--hand)"></circle>
+      </svg>
+      <span><b>HS</b><span>Orbit</span></span>
+    </a>
+    <span class="sep" aria-hidden="true"></span>
+    <nav class="crumb" aria-label="현재 위치"><a href="/">기출 아틀라스</a><span aria-hidden="true">›</span><span aria-current="page">수학</span></nav></div>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="https://hsorbit.uk">HSOrbit</a>
+      <a href="https://math.hsorbit.uk">수학 학습 플랫폼</a>
+    </nav>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="wrap wide">
+    <p>고등학교 수학 기출을 단원·배점·정답률로 찾고, 골라 담아 한글 시험지로 받아 가세요.</p>
+  </div>
+</section>
+
+<main class="wrap wide app" id="app">
+  <details class="filters-wrap" open>
+    <summary>필터 열기·닫기</summary>
+    <aside class="panel filters" aria-label="필터">
+      <div class="tray-head"><h2>찾아보기</h2><button class="link-btn" id="reset" type="button">초기화</button></div>
+
+      <div class="fgroup">
+        <label class="fl" for="q">검색</label>
+        <input type="search" id="q" placeholder="개념, 문제 속 낱말" autocomplete="off">
+      </div>
+
+      <fieldset class="fgroup"><legend>과목</legend><div class="chips" id="f-subject"></div></fieldset>
+      <fieldset class="fgroup" id="g-unit" hidden><legend>단원</legend><div class="chips" id="f-unit"></div></fieldset>
+      <fieldset class="fgroup"><legend>배점</legend><div class="chips" id="f-band"></div><div class="chips" id="f-pts"></div></fieldset>
+
+      <fieldset class="fgroup"><legend>정답률 (%)</legend>
+        <div class="field">
+          <label class="sr" for="rmin">최소</label><input type="number" id="rmin" min="0" max="100" value="0">
+          <span>~</span>
+          <label class="sr" for="rmax">최대</label><input type="number" id="rmax" min="0" max="100" value="100">
+        </div>
+        <label class="check"><input type="checkbox" id="rnull" checked> 정답률 정보 없는 문항 포함</label>
+      </fieldset>
+
+      <fieldset class="fgroup"><legend>연도</legend>
+        <div class="field">
+          <label class="sr" for="ymin">시작 연도</label><select id="ymin"></select>
+          <span>~</span>
+          <label class="sr" for="ymax">끝 연도</label><select id="ymax"></select>
+        </div>
+      </fieldset>
+
+      <fieldset class="fgroup"><legend>시행기관</legend>
+        <div class="chips" id="f-org"></div>
+      </fieldset>
+    </aside>
+  </details>
+
+  <section aria-label="문항 목록" style="min-width:0">
+    <div class="toolbar">
+      <div class="count" id="count" aria-live="polite"></div>
+      <button class="btn sm" id="selAll" type="button">결과 모두 선택</button>
+      <button class="btn sm" id="selNone" type="button">선택 해제</button>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <aside class="panel tray" aria-label="선택한 문항">
+    <div class="tray-head"><h2>시험지 담기</h2><span><span class="n" id="tn">0</span>문항</span></div>
+    <div class="fgroup">
+      <label class="fl" for="title">시험지 제목</label>
+      <input type="text" id="title" value="수학 기출 문항지">
+    </div>
+    <label class="check"><input type="checkbox" id="ans" checked> 정답 포함</label>
+    <ol class="tlist" id="tlist"></ol>
+    <button class="btn sm" id="autosort" type="button">자동 정렬 (배점 낮은 순 · 정답률 높은 순)</button>
+    <button class="btn primary big" id="dl" type="button" disabled>한글 파일 받기 (.hwpx)</button>
+    <div class="status" id="status" role="status" aria-live="polite"></div>
+    <p class="note">한글 2014 이상에서 열립니다 · AI·서버 없이 브라우저에서 만듭니다</p>
+  </aside>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap wide">
+    <span>문항 출처: 한국교육과정평가원 · 시도교육청 · 학교 시험 문항 · 다운로드는 무료이며 브라우저에서 만들어집니다.</span>
+    <span>© 2026 [AM:ouse] · <a href="https://hsorbit.uk">HSOrbit</a> · <a href="https://math.hsorbit.uk">수학 학습 플랫폼</a></span>
+  </div>
+</footer>
+
+<script src="/js/vendor/jszip.min.js"></script>
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

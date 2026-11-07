@@ -1,0 +1,11 @@
+{
+  // Cloudflare Workers 정적 사이트 설정 (빌드 단계 없음)
+  "name": "gichul-atlas",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./site",
+    // 없는 주소는 404.html을 보여줍니다
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}

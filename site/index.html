@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>기출 아틀라스 · HSOrbit</title>
+<meta name="description" content="교과별 기출 문항을 단원·배점·정답률로 찾고, 한글 파일(.hwpx) 시험지로 무료로 받아 보세요.">
+<meta name="theme-color" content="#f4f3ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap">
+<link rel="preload" href="/assets/fonts/KERISBAEUM_R.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/app.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap wide">
+    <a class="logo" href="https://hsorbit.uk" aria-label="HSOrbit 홈">
+      <svg viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke-linecap="round">
+        <path d="M12.95 25 A22 22 0 1 1 24.48 56.67" stroke="currentColor" stroke-width="4"></path>
+        <circle cx="32" cy="36" r="9" fill="currentColor"></circle>
+        <circle cx="51.05" cy="47" r="5" fill="var(--hand)"></circle>
+      </svg>
+      <span><b>HS</b><span>Orbit</span></span>
+      <span class="sep" aria-hidden="true"></span>
+      <span class="app-name">기출 아틀라스</span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="https://hsorbit.uk">HSOrbit</a>
+      <a href="https://math.hsorbit.uk">수학 학습 플랫폼</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hub-hero">
+  <div class="wrap wide">
+    <p class="label">GICHUL ATLAS</p>
+    <h1>교과를 고르면, 기출이 단원별로 정리되어 있어요</h1>
+    <p class="lede">문항을 골라 담아 한글 시험지로 받아 가세요. 검색부터 파일 만들기까지 모두 브라우저에서 끝납니다.</p>
+  </div>
+</section>
+
+<main class="wrap wide" id="main">
+  <ul class="areas" id="areas" aria-label="교과 목록"></ul>
+  <noscript><p class="muted">자바스크립트를 켜면 교과 목록이 보입니다. <a href="/math/">수학 기출 바로가기</a></p></noscript>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap wide">
+    <span>문항 출처: 한국교육과정평가원 · 시도교육청 · 학교 시험 문항 · 다운로드는 무료이며 브라우저에서 만들어집니다.</span>
+    <span>© 2026 [AM:ouse] · <a href="https://hsorbit.uk">HSOrbit</a> · <a href="https://math.hsorbit.uk">수학 학습 플랫폼</a></span>
+  </div>
+</footer>
+
+<script type="module">
+const ul = document.getElementById('areas');
+const esc = t => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+try {
+  const { areas } = await fetch('/data/areas.json').then(r => { if (!r.ok) throw 0; return r.json(); });
+  ul.innerHTML = areas.map(a => {
+    const body = `<span class="area-name">${esc(a.name)}</span><span class="area-desc">${esc(a.desc || '')}</span>` +
+      (a.ready ? '<span class="area-go">기출 보러 가기 <span aria-hidden="true">→</span></span>' : '<span class="area-soon">준비 중</span>');
+    return a.ready
+      ? `<li><a class="area ready" href="${esc(a.path)}">${body}</a></li>`
+      : `<li><div class="area soon" aria-disabled="true" role="group" aria-label="${esc(a.name)} (준비 중)">${body}</div></li>`;
+  }).join('');
+} catch { ul.innerHTML = '<li><a class="area ready" href="/math/"><span class="area-name">수학</span><span class="area-go">기출 보러 가기 →</span></a></li>'; }
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+ "note": "기출 아틀라스 교과 목록. ready=true인 교과만 열리고, 나머지는 '준비 중' 카드로 보인다. 교과마다 site/<path>/ 화면과 site/data/<id>/(curriculum.json, problems.json)를 쓴다.",
+ "areas": [
+  {"id": "math", "name": "수학", "path": "/math/", "ready": true, "desc": "공통수학·대수·미적분·확률과 통계·기하"},
+  {"id": "korean", "name": "국어", "path": "/korean/", "ready": false, "desc": "지문 세트 문항"},
+  {"id": "english", "name": "영어", "path": "/english/", "ready": false, "desc": "지문 세트·듣기 문항"},
+  {"id": "history", "name": "한국사", "path": "/history/", "ready": false, "desc": "자료 해석 문항"},
+  {"id": "social", "name": "사회탐구", "path": "/social/", "ready": false, "desc": "통합사회·선택 과목"},
+  {"id": "science", "name": "과학탐구", "path": "/science/", "ready": false, "desc": "통합과학·선택 과목"}
+ ]
+}

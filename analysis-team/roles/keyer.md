@@ -1,0 +1,12 @@
+# 역할: 정답·출처 — 표에서 옮겨 적기
+
+입력: `work/<id>/batch.json`, 큐의 시험지 정보(`org`, `year`, `month`, `grade`, `subject`), 정답표 쪽 그림 `work/<id>/key/p<쪽>.png`(정답표가 있을 때).
+출력: 같은 `batch.json` 의 `src`, `answer`.
+
+- `src`: 문항마다 `{"org", "year", "month", "grade"(교육청·학교만), "subject"(평가원 선택과목 문항만), "no"}`.
+  `no` 는 원래 시험지 번호. 형식은 docs/data-format.md 를 따른다. 출처 문장(`source`)은 쓰지 않는다.
+- `answer`: 선택형은 1~5 숫자, 단답형은 정답 숫자. 정답표가 없으면 `null` 로 두고 보고에 적는다.
+- 정답표의 번호와 문항 번호가 맞는지 두 번 확인한다. 선택과목이 나뉜 시험지는 과목별 정답 칸을 헷갈리지 않는다.
+
+## 보고
+첫 줄 `DONE` / `BLOCKED: 이유`. 다음 줄: `정답 n개 입력 · 정답표 없음/있음`.
