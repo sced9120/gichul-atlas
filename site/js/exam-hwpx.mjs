@@ -100,30 +100,31 @@ export async function buildExamHwpx({ JSZip, template, style: S, problems, loadI
       `<hp:outMargin left="0" right="0" top="0" bottom="0"/><hp:inMargin left="0" right="0" top="0" bottom="0"/>${trs}</hp:tbl>`;
   };
 
+  // 한컴 정품 출력과 같은 순서: renderingInfo 바로 뒤에 hc:img, 그다음 imgRect·imgClip·inMargin·imgDim.
+  // (hc:img 를 뒤쪽에 두면 한글 모바일 뷰어 등에서 그림 자리만 잡히고 그림이 비어 보였다.)
   const picXml = (binId, w, h) =>
-    `<hp:pic textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES" reverse="0" id="${nextId()}" zOrder="${z++}" numberingType="PICTURE" lock="0" dropcapstyle="None" href="" groupLevel="0" instid="${objId}">` +
+    `<hp:pic id="${nextId()}" zOrder="${z++}" numberingType="PICTURE" textWrap="TOP_AND_BOTTOM" textFlow="BOTH_SIDES" lock="0" dropcapstyle="None" href="" groupLevel="0" instid="${nextId()}" reverse="0">` +
     `<hp:offset x="0" y="0"/><hp:orgSz width="${w}" height="${h}"/><hp:curSz width="${w}" height="${h}"/><hp:flip horizontal="0" vertical="0"/>` +
     `<hp:rotationInfo angle="0" centerX="${w >> 1}" centerY="${h >> 1}" rotateimage="1"/>` +
     `<hp:renderingInfo><hc:transMatrix e1="1" e2="0" e3="0" e4="0" e5="1" e6="0"/><hc:scaMatrix e1="1" e2="0" e3="0" e4="0" e5="1" e6="0"/><hc:rotMatrix e1="1" e2="0" e3="0" e4="0" e5="1" e6="0"/></hp:renderingInfo>` +
+    `<hc:img binaryItemIDRef="${binId}" bright="0" contrast="0" effect="REAL_PIC" alpha="0"/>` +
     `<hp:imgRect><hc:pt0 x="0" y="0"/><hc:pt1 x="${w}" y="0"/><hc:pt2 x="${w}" y="${h}"/><hc:pt3 x="0" y="${h}"/></hp:imgRect>` +
     `<hp:imgClip left="0" right="${w}" top="0" bottom="${h}"/><hp:inMargin left="0" right="0" top="0" bottom="0"/><hp:imgDim dimwidth="${w}" dimheight="${h}"/>` +
-    `<hc:img binaryItemIDRef="${binId}" bright="0" contrast="0" effect="REAL_PIC" alpha="0"/><hp:effects/>` +
+    `<hp:effects/>` +
     `<hp:sz width="${w}" widthRelTo="ABSOLUTE" height="${h}" heightRelTo="ABSOLUTE" protect="0"/>` +
     `<hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1" allowOverlap="0" holdAnchorAndSO="0" vertRelTo="PARA" horzRelTo="COLUMN" vertAlign="TOP" horzAlign="LEFT" vertOffset="0" horzOffset="0"/>` +
     `<hp:outMargin left="0" right="0" top="0" bottom="0"/><hp:shapeComment>그림입니다.</hp:shapeComment></hp:pic>`;
 
-  // 그림: 한글 방식대로 BIN0001.png 이름 + content.hpf 목록 + header.xml binDataList 에 함께 등록.
-  // (binDataList 가 없거나 이름이 BIN#### 꼴이 아니면 모바일 한글 뷰어 등에서 자리만 잡히고 그림이 안 보인다.)
+  // 그림 파일: 한컴 정품처럼 id·파일 이름은 image1, image2 …, content.hpf 목록에서는 header 바로 뒤에 둔다.
+  // png·jpg 는 이미 압축된 형식이라 압축하지 않고(STORE) 넣는다.
   let imgNo = 0;
-  const binItems = [];
+  const imgItems = [];
   const embedImage = async path => {
     imgNo += 1;
     const ext = path.split('.').pop().toLowerCase();
-    const binId = `BIN${String(imgNo).padStart(4, '0')}`;
-    zip.file(`BinData/${binId}.${ext}`, await loadImage(path), { createFolders: false });
-    hpf = hpf.replace('</opf:manifest>',
-      `<opf:item id="${binId}" href="BinData/${binId}.${ext}" media-type="image/${ext === 'jpg' ? 'jpeg' : ext}" isEmbeded="1"/></opf:manifest>`);
-    binItems.push(`<hh:binItem id="${imgNo - 1}" Type="Embedding" BinData="${binId}.${ext}" Format="${ext}"/>`);
+    const binId = `image${imgNo}`;
+    zip.file(`BinData/${binId}.${ext}`, await loadImage(path), { createFolders: false, compression: 'STORE' });
+    imgItems.push(`<opf:item id="${binId}" href="BinData/${binId}.${ext}" media-type="image/${ext === 'jpg' ? 'jpeg' : ext}" isEmbeded="1"/>`);
     return binId;
   };
 
@@ -193,12 +194,11 @@ export async function buildExamHwpx({ JSZip, template, style: S, problems, loadI
   section = section.replace(/\{\{([A-Z0-9_]+)\}\}/g, (_, k) => esc(fill[k] ?? ''));
   section = section.replace('</hs:sec>', out.join('') + '</hs:sec>');
 
-  if (binItems.length) {
-    let header = await zip.file('Contents/header.xml').async('string');
-    header = header.replace(/<hh:binDataList[^>]*\/>|<hh:binDataList[\s\S]*?<\/hh:binDataList>/, '');
-    header = header.replace('</hh:refList>',
-      `<hh:binDataList itemCnt="${binItems.length}">${binItems.join('')}</hh:binDataList></hh:refList>`);
-    zip.file('Contents/header.xml', header, { createFolders: false });
+  if (imgItems.length) {
+    const headerItem = /<opf:item id="header"[^>]*\/>/;
+    hpf = headerItem.test(hpf)
+      ? hpf.replace(headerItem, m => m + imgItems.join(''))
+      : hpf.replace('</opf:manifest>', imgItems.join('') + '</opf:manifest>');
   }
   zip.file('Contents/section0.xml', section, { createFolders: false });
   zip.file('Contents/content.hpf', hpf, { createFolders: false });
