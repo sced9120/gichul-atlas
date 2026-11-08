@@ -1,4 +1,4 @@
-import { buildExamHwpx, sortProblems } from './exam-hwpx.mjs?v=20261108b';
+import { buildExamHwpx, sortProblems } from './exam-hwpx.mjs?v=20261108c';
 
 const $ = id => document.getElementById(id);
 const AREA = 'math';
@@ -204,6 +204,8 @@ function autoSort() { order = sortProblems(order.map(id => byId.get(id))).map(p 
 
 function renderTray() {
   $('tn').textContent = order.length; $('dl').disabled = !order.length;
+  $('dn').textContent = order.length; $('dockbar').hidden = !order.length; document.body.classList.toggle('has-dock', !!order.length);
+  if (!order.length) closeSheet();
   const ul = $('tlist'); ul.textContent = '';
   if (!order.length) { ul.innerHTML = '<li class="tray-empty">왼쪽에서 문항을 골라 담아 보세요.</li>'; return; }
   order.forEach((id, i) => {
@@ -255,8 +257,24 @@ $('reset').addEventListener('click', () => {
   buildFilters(); update();
 });
 
-function setStatus(msg, err) { const s = $('status'); s.textContent = msg; s.classList.toggle('err', !!err); }
-$('dl').addEventListener('click', async () => {
+function setStatus(msg, err) { for (const id of ['status', 'sheetStatus']) { const s = $(id); s.textContent = msg; s.classList.toggle('err', !!err); } }
+function openSheet() {
+  if (!order.length) return;
+  const title = $('title').value.trim() || '수학 기출 문항지';
+  $('sheetN').textContent = order.length; $('sheetName').textContent = title; $('sheetAns').textContent = $('ans').checked ? '포함' : '미포함';
+  $('sheetStatus').textContent = ''; $('sheetStatus').classList.remove('err');
+  $('sheetList').innerHTML = order.map((id, i) => { const p = byId.get(id);
+    return `<li><span class="no">${i + 1}</span><span>${esc(p.source)}<small>${fmtPts(p.points)}점 · ${esc(places(p).map(x => x.unit).join(' / '))}</small></span></li>`; }).join('');
+  $('sheet').hidden = false; $('sheetOk').focus();
+}
+function closeSheet() { $('sheet').hidden = true; }
+$('dockBtn').addEventListener('click', openSheet);
+$('sheetClose').addEventListener('click', closeSheet); $('sheetCancel').addEventListener('click', closeSheet);
+$('sheet').addEventListener('click', e => { if (e.target === $('sheet')) closeSheet(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('sheet').hidden) closeSheet(); });
+$('sheetOk').addEventListener('click', async () => { $('sheetOk').disabled = true; await doDownload(); $('sheetOk').disabled = false; if (!$('sheetStatus').classList.contains('err')) closeSheet(); });
+$('dl').addEventListener('click', () => doDownload());
+async function doDownload() {
   if (!order.length) return;
   const btn = $('dl'); btn.disabled = true; setStatus('만드는 중…');
   try {
@@ -278,7 +296,7 @@ $('dl').addEventListener('click', async () => {
     setStatus('완료 — 파일을 내려받았습니다.');
   } catch (err) { console.error(err); setStatus('오류: ' + (err.message || err), true); }
   finally { btn.disabled = !order.length; }
-});
+}
 
 // ---- init
 (async () => {
