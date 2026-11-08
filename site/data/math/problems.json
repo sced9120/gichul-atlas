@@ -3293,10 +3293,10 @@
  {
   "id": "edu-2024-06-g1-q2",
   "area": "math",
-  "subject": "중학교",
-  "unit": "대수",
+  "subject": "공통수학1",
+  "unit": "다항식",
   "standards": [
-   "[9수02-09]"
+   "[10공수1-01-01]"
   ],
   "points": 2,
   "rate": null,
@@ -6515,10 +6515,10 @@
  {
   "id": "edu-2024-09-g1-q1",
   "area": "math",
-  "subject": "중학교",
-  "unit": "대수",
+  "subject": "공통수학1",
+  "unit": "다항식",
   "standards": [
-   "[9수02-09]"
+   "[10공수1-01-01]"
   ],
   "points": 2,
   "rate": null,
@@ -6823,19 +6823,17 @@
  {
   "id": "edu-2024-09-g1-q4",
   "area": "math",
-  "subject": "중학교",
-  "unit": "기하",
+  "subject": "공통수학2",
+  "unit": "도형의 방정식",
   "standards": [
-   "[9수03-15]",
-   "[9수02-05]"
+   "[10공수2-01-01]"
   ],
   "points": 3,
   "rate": null,
   "type": "선택형",
   "answer": 3,
   "concepts": [
-   "피타고라스 정리",
-   "좌표평면 위 두 점 사이의 거리"
+   "두 점 사이의 거리"
   ],
   "outOfCurriculum": false,
   "src": {
@@ -17904,10 +17902,10 @@
  {
   "id": "edu-2025-06-g1-q7",
   "area": "math",
-  "subject": "중학교",
-  "unit": "대수",
+  "subject": "공통수학1",
+  "unit": "다항식",
   "standards": [
-   "[9수02-01]"
+   "[10공수1-01-01]"
   ],
   "points": 3,
   "rate": null,
@@ -20907,10 +20905,10 @@
  {
   "id": "edu-2025-09-g1-q1",
   "area": "math",
-  "subject": "중학교",
-  "unit": "대수",
+  "subject": "공통수학1",
+  "unit": "다항식",
   "standards": [
-   "[9수02-09]"
+   "[10공수1-01-01]"
   ],
   "points": 2,
   "rate": null,
@@ -21518,17 +21516,17 @@
  {
   "id": "edu-2025-09-g1-q7",
   "area": "math",
-  "subject": "중학교",
-  "unit": "확률과 통계",
+  "subject": "공통수학1",
+  "unit": "경우의 수",
   "standards": [
-   "[9수04-05]"
+   "[10공수1-03-01]"
   ],
   "points": 3,
   "rate": null,
   "type": "선택형",
   "answer": 4,
   "concepts": [
-   "경우의 수",
+   "합의 법칙",
    "순서쌍 세기"
   ],
   "outOfCurriculum": false,
