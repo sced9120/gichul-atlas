@@ -10163,10 +10163,10 @@
  {
   "id": "edu-2024-10-g1-q1",
   "area": "math",
-  "subject": "중학교",
-  "unit": "대수",
+  "subject": "공통수학1",
+  "unit": "다항식",
   "standards": [
-   "[9수02-09]"
+   "[10공수1-01-01]"
   ],
   "points": 2,
   "rate": null,
@@ -10254,17 +10254,16 @@
  {
   "id": "edu-2024-10-g1-q2",
   "area": "math",
-  "subject": "중학교",
-  "unit": "기하",
+  "subject": "공통수학2",
+  "unit": "도형의 방정식",
   "standards": [
-   "[9수03-15]"
+   "[10공수2-01-01]"
   ],
   "points": 2,
   "rate": null,
   "type": "선택형",
   "answer": 1,
   "concepts": [
-   "피타고라스 정리",
    "두 점 사이의 거리"
   ],
   "outOfCurriculum": false,
@@ -13732,17 +13731,17 @@
  {
   "id": "edu-2024-10-g1-q29",
   "area": "math",
-  "subject": "중학교",
-  "unit": "대수",
+  "subject": "공통수학1",
+  "unit": "다항식",
   "standards": [
-   "[9수02-19]"
+   "[10공수1-01-01]"
   ],
   "points": 4,
   "rate": null,
   "type": "단답형",
   "answer": 154,
   "concepts": [
-   "곱셈 공식",
+   "곱셈 공식의 변형",
    "직각삼각형의 넓이",
    "원의 넓이"
   ],
@@ -24700,10 +24699,10 @@
  {
   "id": "edu-2025-10-g1-q1",
   "area": "math",
-  "subject": "중학교",
-  "unit": "대수",
+  "subject": "공통수학1",
+  "unit": "다항식",
   "standards": [
-   "[9수02-09]"
+   "[10공수1-01-01]"
   ],
   "points": 2,
   "rate": null,
@@ -24791,19 +24790,17 @@
  {
   "id": "edu-2025-10-g1-q2",
   "area": "math",
-  "subject": "중학교",
-  "unit": "기하",
+  "subject": "공통수학2",
+  "unit": "도형의 방정식",
   "standards": [
-   "[9수03-15]",
-   "[9수02-05]"
+   "[10공수2-01-01]"
   ],
   "points": 2,
   "rate": null,
   "type": "선택형",
   "answer": 2,
   "concepts": [
-   "두 점 사이의 거리",
-   "피타고라스 정리"
+   "두 점 사이의 거리"
   ],
   "outOfCurriculum": false,
   "src": {
@@ -28943,8 +28940,7 @@
   "subject": "공통수학1",
   "unit": "다항식",
   "standards": [
-   "[10공수1-01-01]",
-   "[9수02-19]"
+   "[10공수1-01-01]"
   ],
   "points": 3,
   "rate": null,
@@ -28955,12 +28951,6 @@
    "계수 구하기"
   ],
   "outOfCurriculum": false,
-  "alsoIn": [
-   {
-    "subject": "중학교",
-    "unit": "대수"
-   }
-  ],
   "src": {
    "org": "edu",
    "year": 2025,
@@ -29057,10 +29047,9 @@
  {
   "id": "edu-2025-10-g1-q22",
   "area": "math",
-  "subject": "중학교",
-  "unit": "함수",
+  "subject": "공통수학2",
+  "unit": "도형의 방정식",
   "standards": [
-   "[9수02-16]",
    "[10공수2-01-02]"
   ],
   "points": 3,
@@ -29071,12 +29060,6 @@
    "두 직선의 평행 조건"
   ],
   "outOfCurriculum": false,
-  "alsoIn": [
-   {
-    "subject": "공통수학2",
-    "unit": "도형의 방정식"
-   }
-  ],
   "src": {
    "org": "edu",
    "year": 2025,
