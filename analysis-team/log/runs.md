@@ -6,3 +6,4 @@
 - 2026-11-08T08:00+09:00 · 선생님 결정 반영: 중학교 문항은 "중학교 · 대수/함수/기하/확률과 통계" 로 분류 · edu-2024-03-g1 1–30 재분류 · 추가 11(확인 필요였던 것) · 확인 필요 0 · 수준: 기준 자료 opus-high, 분류 opus-low→opus-medium, 오르빗 opus-low
 - 2026-11-08T09:16+09:00 · edu-2024-06-g1 1–30 · 추가 30 · 확인 필요 0 · 수준: 전사 sonnet-low→sonnet-medium(q13), 정답·출처 haiku, 분류 opus-low, 오르빗 opus-low(2회)
 - 2026-11-08T09:16+09:00 · edu-2024-09-g1 1–30 · 추가 30 · 확인 필요 0 · 수준: 전사 sonnet-low→sonnet-medium(q11), 정답·출처 haiku, 분류 opus-low, 오르빗 opus-low(2회)
+- 2026-11-08T09:16+09:00 · edu-2024-10-g1 1–30 · 추가 30 · 확인 필요 0 (참고: q9 외분점 OOC true, q11 무게중심 코드) · 수준: 전사 sonnet-low, 정답·출처 haiku, 분류 opus-low→opus-medium(q29), 오르빗 opus-low(2회)
