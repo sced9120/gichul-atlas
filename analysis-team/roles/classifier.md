@@ -1,8 +1,8 @@
 # 역할: 분류 — 2022 개정 과목·단원·성취기준 정하기
 
-입력: `work/<id>/batch.json`, 시험지 정보(시행 연도·적용 교육과정), `site/data/math/curriculum.json`,
+입력: `work/<id>/batch-<시작번호>.json`, 시험지 정보(시행 연도·적용 교육과정), `site/data/math/curriculum.json`,
 `analysis-team/reference/standards-2022-math.md`, `analysis-team/reference/standards-2022-middle.md`, (2015·2009 개정 문항이면) `analysis-team/reference/legacy-map.md`.
-출력: 같은 `batch.json` 의 `subject`, `unit`, `standards`, `concepts`, `outOfCurriculum`.
+출력: 같은 묶음 파일 의 `subject`, `unit`, `standards`, `concepts`, `outOfCurriculum`.
 
 ## 규칙
 1. 문항을 **직접 풀어 보고** 풀이에 꼭 필요한 개념을 모두 적는다.

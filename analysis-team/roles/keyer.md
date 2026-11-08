@@ -1,7 +1,7 @@
 # 역할: 정답·출처 — 표에서 옮겨 적기
 
-입력: `work/<id>/batch.json`, 큐의 시험지 정보(`org`, `year`, `month`, `grade`, `subject`), 정답표 쪽 그림 `work/<id>/key/p<쪽>.png`(정답표가 있을 때).
-출력: 같은 `batch.json` 의 `src`, `answer`.
+입력: `work/<id>/batch-<시작번호>.json`, 큐의 시험지 정보(`org`, `year`, `month`, `grade`, `subject`), 정답표 쪽 그림 `work/<id>/key/p<쪽>.png`(정답표가 있을 때).
+출력: 같은 묶음 파일 의 `src`, `answer`.
 
 - `src`: 문항마다 `{"org", "year", "month", "grade"(교육청·학교만), "subject"(평가원 선택과목 문항만), "no"}`.
   `no` 는 원래 시험지 번호. 형식은 docs/data-format.md 를 따른다. 출처 문장(`source`)은 쓰지 않는다.
