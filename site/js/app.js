@@ -1,4 +1,4 @@
-import { buildExamHwpx, sortProblems } from './exam-hwpx.mjs';
+import { buildExamHwpx, sortProblems } from './exam-hwpx.mjs?v=20261108b';
 
 const $ = id => document.getElementById(id);
 const AREA = 'math';
