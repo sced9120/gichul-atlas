@@ -9216,5 +9216,1448 @@
   ],
   "stem": "두 함수 $f(x)=x^2-5x$, $g(x)=-\\frac{1}{2}x+\\frac{5}{2}$가 있다. 실수 $a$에 대하여 직선 $y=x+k$가 $x<a$에서 함수 $y=f(x)$의 그래프와 만나는 서로 다른 점의 개수를 $m$, $x\\geq a$에서 함수 $y=g(x)$의 그래프와 만나는 서로 다른 점의 개수를 $n$이라 하자. $m+n=3$인 실수 $k$가 존재하도록 하는 모든 $a$의 값의 범위는 $p<a<q$이다. $p\\times q$의 값을 구하시오. (단, $p$, $q$는 상수이다.)",
   "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q1",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 1
+  },
+  "subject": "공통수학1",
+  "unit": "다항식",
+  "standards": [
+   "[10공수1-01-01]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "다항식의 덧셈"
+  ],
+  "stem": "두 다항식 $A=3x^2-2x+5$, $B=x^2+3x-4$에 대하여 $A+B$를 간단히 하면?",
+  "choices": [
+   "$2x^2-x+1$",
+   "$2x^2+x-1$",
+   "$4x^2+x+1$",
+   "$4x^2+x+2$",
+   "$4x^2+2x+1$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q2",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 2
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "standards": [
+   "[10공수1-02-01]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "켤레복소수",
+   "복소수의 덧셈"
+  ],
+  "stem": "복소수 $z=4+i$의 켤레복소수가 $\\overline{z}$일 때, $z+\\overline{z}$의 값은? (단, $i=\\sqrt{-1}$)",
+  "choices": [
+   "$-8$",
+   "$-4$",
+   "$0$",
+   "$4$",
+   "$8$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q3",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 3
+  },
+  "subject": "공통수학1",
+  "unit": "행렬",
+  "standards": [
+   "[10공수1-04-01]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "서로 같은 행렬"
+  ],
+  "stem": "두 행렬 $A=\\begin{pmatrix}-5&4\\\\1&a+2b\\end{pmatrix}$, $B=\\begin{pmatrix}5a&4\\\\1&3\\end{pmatrix}$에 대하여 $A=B$일 때, $a+b$의 값은? (단, $a$와 $b$는 상수이다.)",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q4",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 4
+  },
+  "subject": "공통수학1",
+  "unit": "다항식",
+  "standards": [
+   "[10공수1-01-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "항등식의 성질",
+   "계수비교법"
+  ],
+  "stem": "등식\n$x^2+ax+18=(x+9)(x+b)$\n가 $x$에 대한 항등식일 때, 두 상수 $a$, $b$에 대하여 $a\\times b$의 값은?",
+  "choices": [
+   "18",
+   "20",
+   "22",
+   "24",
+   "26"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q5",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 5
+  },
+  "subject": "공통수학1",
+  "unit": "행렬",
+  "standards": [
+   "[10공수1-04-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "행렬의 덧셈과 실수배"
+  ],
+  "stem": "두 이차정사각행렬 $A=\\begin{pmatrix}2&5\\\\-1&3\\end{pmatrix}$, $B$에 대하여\n$A+2B=\\begin{pmatrix}4&5\\\\5&7\\end{pmatrix}$일 때, 행렬 $B$의 모든 성분의 합은?",
+  "choices": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q6",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 6
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "standards": [
+   "[10공수1-02-11]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "이차부등식의 해",
+   "이차부등식 세우기"
+  ],
+  "stem": "$x$에 대한 이차부등식 $x^2+ax-6\\le0$의 해가 $-3\\le x\\le b$일 때, 두 상수 $a$, $b$에 대하여 $2a+b$의 값은?",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q7",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 7
+  },
+  "subject": "공통수학1",
+  "unit": "경우의 수",
+  "standards": [
+   "[10공수1-03-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "합의 법칙과 곱의 법칙",
+   "순서쌍 세기"
+  ],
+  "stem": "$-3\\le a\\le5$, $-2\\le b\\le7$인 두 정수 $a$, $b$에 대하여 $a\\times b<0$을 만족시키는 $a$, $b$의 모든 순서쌍 $(a,\\,b)$의 개수는?",
+  "choices": [
+   "27",
+   "28",
+   "29",
+   "30",
+   "31"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q8",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 8
+  },
+  "subject": "공통수학1",
+  "unit": "다항식",
+  "standards": [
+   "[10공수1-01-03]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "치환을 이용한 인수분해",
+   "공통부분 치환"
+  ],
+  "stem": "다항식 $(x^2-3x+11)(x^2-3x-3)-15$가 $(x-4)(x+1)(x^2+ax+b)$로 인수분해될 때, 두 상수 $a$, $b$에 대하여 $b-a$의 값은?",
+  "choices": [
+   "11",
+   "12",
+   "13",
+   "14",
+   "15"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q9",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 9
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "standards": [
+   "[10공수1-02-09]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "연립일차부등식",
+   "정수해의 개수"
+  ],
+  "stem": "$x$에 대한 연립부등식\n$\\begin{cases}x-2<-2x+k\\\\3x+5<5x+7\\end{cases}$\n을 만족시키는 정수 $x$의 개수가 4가 되도록 하는 모든 자연수 $k$의 값의 합은?",
+  "choices": [
+   "18",
+   "21",
+   "24",
+   "27",
+   "30"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q10",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 10
+  },
+  "subject": "공통수학1",
+  "unit": "경우의 수",
+  "standards": [
+   "[10공수1-03-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "합의 법칙",
+   "배수 조건"
+  ],
+  "stem": "한 개의 주사위를 두 번 던져서 나오는 눈의 수를 차례로 $a$, $b$라 하자. $\\frac{2a+b}{5}$가 자연수가 되도록 하는 $a$, $b$의 모든 순서쌍 $(a,\\,b)$의 개수는?",
+  "choices": [
+   "5",
+   "7",
+   "9",
+   "11",
+   "13"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q11",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 11
+  },
+  "subject": "공통수학1",
+  "unit": "다항식",
+  "standards": [
+   "[10공수1-01-02]",
+   "[10공수1-01-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "나머지정리",
+   "다항식의 나눗셈"
+  ],
+  "stem": "$x$에 대한 다항식 $x^3+ax^2+(3-a)x-13$을 $x-2$로 나누었을 때의 몫은 $Q(x)$이고 나머지는 3이다. $Q(x)$를 $x-a$로 나눈 나머지는? (단, $a$는 상수이다.)",
+  "choices": [
+   "12",
+   "13",
+   "14",
+   "15",
+   "16"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q12",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 12
+  },
+  "subject": "공통수학1",
+  "unit": "행렬",
+  "standards": [
+   "[10공수1-04-02]",
+   "[10공수1-04-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "행렬의 성분",
+   "행렬의 거듭제곱"
+  ],
+  "stem": "이차정사각행렬 $A$의 $(i,\\,j)$ 성분 $a_{ij}$가\n$a_{ij}=\\begin{cases}i-(-1)^j&(i=j)\\\\i&(i\\ne j)\\end{cases}$\n이다. $A+A^2+A^3+A^4=kA$일 때, 상수 $k$의 값은? (단, $A^2=AA$, $A^3=A^2A$, $A^4=A^3A$)",
+  "choices": [
+   "31",
+   "34",
+   "37",
+   "40",
+   "43"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q13",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 13
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "standards": [
+   "[10공수1-02-06]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "제한된 범위에서 이차함수의 최대·최소"
+  ],
+  "stem": "양수 $k$에 대하여 $2-k\\le x\\le5+k$에서 이차함수\n$f(x)=x^2-6x-2k+9$\n의 최댓값이 12일 때, $f(6)$의 값은?",
+  "choices": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q14",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 14
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "standards": [
+   "[10공수1-02-03]",
+   "[10공수1-02-04]",
+   "[10공수1-02-02]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "근과 계수의 관계",
+   "이차함수와 x축의 교점",
+   "판별식"
+  ],
+  "stem": "최고차항의 계수가 1인 이차함수 $y=f(x)$의 그래프의 꼭짓점이 직선 $y=3x$ 위에 있다. 함수 $y=f(x)$의 그래프와 $x$축이 서로 다른 두 점 A, B에서 만날 때, 두 점 A, B의 $x$좌표를 각각 $\\alpha$, $\\beta$라 하자. $\\alpha^2+\\beta^2=20$일 때, $f(2)$의 값은?",
+  "choices": [
+   "8",
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q15",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 15
+  },
+  "subject": "공통수학1",
+  "unit": "행렬",
+  "standards": [
+   "[10공수1-04-02]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "행렬의 덧셈과 실수배",
+   "행렬의 곱셈",
+   "영행렬"
+  ],
+  "stem": "두 이차정사각행렬 $A$, $B$가\n$A+B=\\begin{pmatrix}1&4\\\\a&-4\\end{pmatrix}$, $2A+B=\\begin{pmatrix}3&5\\\\b&-2\\end{pmatrix}$\n를 만족시킨다. $AB=O$일 때, $a+b$의 값은? (단, $a$와 $b$는 상수이고, $O$는 영행렬이다.)",
+  "choices": [
+   "10",
+   "13",
+   "16",
+   "19",
+   "22"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q16",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 16
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-05]",
+   "[9수03-17]",
+   "[9수03-15]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "정육각형의 내각",
+   "특수각의 삼각비",
+   "사각형의 넓이"
+  ],
+  "stem": "그림과 같이 한 변의 길이가 1인 두 정육각형 ABCDEF, AGHIJK 가 있다. 점 G가 정육각형 ABCDEF 의 내부에 있고 $\\angle \\mathrm{BAG}=45^{\\circ}$일 때, 사각형 AGEF 의 넓이는?",
+  "figure": "images/edu-2026-03-g1-q16-fig.png",
+  "figureWidthMm": 62,
+  "choices": [
+   "$\\frac{2+\\sqrt{3}}{4}$",
+   "$\\frac{\\sqrt{3}+\\sqrt{6}}{4}$",
+   "$\\frac{2+\\sqrt{6}}{4}$",
+   "$\\frac{2\\sqrt{2}+\\sqrt{3}}{4}$",
+   "$\\frac{2\\sqrt{2}+\\sqrt{6}}{4}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q17",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 17
+  },
+  "subject": "중학교",
+  "unit": "함수",
+  "standards": [
+   "[9수02-16]",
+   "[9수02-18]",
+   "[9수02-05]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "일차함수 그래프의 교점",
+   "평행한 두 직선의 기울기",
+   "사다리꼴의 넓이"
+  ],
+  "stem": "그림과 같이 직선 $y=\\frac{2}{3}x-5$가 $y$축과 만나는 점을 A, 직선 $y=-x$와 만나는 점을 B라 하자. 원점 O와 제3사분면에 있는 점 C에 대하여 사각형 OCAB가 사다리꼴이고 넓이가 $\\frac{25}{2}$가 되도록 하는 모든 점 C의 $y$좌표의 곱은? (단, 점 C의 $y$좌표는 $-5$보다 크다.)",
+  "figure": "images/edu-2026-03-g1-q17-fig.png",
+  "figureWidthMm": 52,
+  "choices": [
+   "$\\frac{8}{3}$",
+   "$3$",
+   "$\\frac{10}{3}$",
+   "$\\frac{11}{3}$",
+   "$4$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q18",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 18
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-10]",
+   "[9수03-05]",
+   "[9수03-17]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "삼각형의 내심",
+   "접선의 길이",
+   "삼각형의 내각의 합"
+  ],
+  "stem": "그림과 같이 $\\overline{AB}=7$인 삼각형 ABC의 내심을 I라 할 때, 점 I에서 선분 AC에 내린 수선의 발을 D라 하자. $\\overline{AD}=2$, $\\angle \\mathrm{AIB}=120^{\\circ}$일 때, 삼각형 ABC의 둘레의 길이는?",
+  "figure": "images/edu-2026-03-g1-q18-fig.png",
+  "figureWidthMm": 56,
+  "choices": [
+   "$18$",
+   "$19$",
+   "$20$",
+   "$21$",
+   "$22$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q19",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 19
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-15]",
+   "[9수03-13]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "종이접기",
+   "피타고라스 정리",
+   "삼각형의 닮음"
+  ],
+  "stem": "한 변의 길이가 $4\\,\\mathrm{cm}$인 정사각형 모양의 종이를 다음과 같이 차례로 접는다.\n\nI: 점 A와 점 D가 겹쳐지도록 접었다가 펴서 선분 AD의 중점 M과 선분 BC의 중점 N을 잡는다. 점 A와 점 M이 겹쳐지도록 접었다가 펴서 선분 AM의 중점 E와 선분 BN의 중점 F를 잡는다.\n\nII: 선분 AB 위의 한 점 G에 대하여 선분 CG를 접는 선으로 하여 점 B가 선분 EF 위에 놓이도록 접는다.\n\n선분 CG의 길이가 $a\\,\\mathrm{cm}$일 때, $a$의 값은? (단, 종이의 두께는 고려하지 않는다.)",
+  "figure": "images/edu-2026-03-g1-q19-fig.png",
+  "figureWidthMm": 32,
+  "choices": [
+   "$\\frac{8\\sqrt{14}}{7}$",
+   "$\\frac{17\\sqrt{14}}{14}$",
+   "$\\frac{9\\sqrt{14}}{7}$",
+   "$\\frac{19\\sqrt{14}}{14}$",
+   "$\\frac{10\\sqrt{14}}{7}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q20",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 20
+  },
+  "subject": "중학교",
+  "unit": "함수",
+  "standards": [
+   "[9수02-22]",
+   "[9수02-16]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "이차함수의 그래프와 꼭짓점",
+   "직선의 교점",
+   "사각형의 넓이"
+  ],
+  "stem": "그림과 같이 제4사분면에 있는 점 A를 꼭짓점으로 하고 원점 O를 지나는 이차함수 $y=f(x)$의 그래프가 있다. 점 A에서 $x$축에 내린 수선의 발을 B라 하자. 최고차항의 계수가 음수인 이차함수 $y=g(x)$의 그래프는 꼭짓점 C가 $y$축 위에 있고 점 B를 지난다. 이차함수 $y=g(x)$의 그래프가 $x$축과 만나는 점 중 B가 아닌 점을 D라 할 때, 점 D의 $x$좌표는 $-2$이다. 두 직선 BC, OA는 점 E에서 만나고, 점 E에서 $x$축에 내린 수선의 발은 D이다. 사각형 OABC의 넓이가 9일 때, $f(-4)+g(-4)$의 값은?",
+  "figure": "images/edu-2026-03-g1-q20-fig.png",
+  "figureWidthMm": 52,
+  "choices": [
+   "$33$",
+   "$35$",
+   "$37$",
+   "$39$",
+   "$41$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q21",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 21
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-09]",
+   "[9수03-15]",
+   "[9수03-13]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "이등변삼각형",
+   "넓이의 비",
+   "피타고라스 정리"
+  ],
+  "stem": "그림과 같이 $\\angle \\mathrm{B}=90^{\\circ}$인 직각삼각형 ABC에서 선분 AB 위의 점 D와 선분 AC 위의 점 E에 대하여 $\\overline{BC}=\\overline{BE}=\\overline{BD}$이다. 삼각형 EAD의 넓이가 16이고 삼각형 CED의 넓이가 4일 때, 삼각형 CEB의 둘레의 길이는? (단, 점 E는 점 C가 아니다.)",
+  "figure": "images/edu-2026-03-g1-q21-fig.png",
+  "figureWidthMm": 73,
+  "choices": [
+   "$\\sqrt{5}+2\\sqrt{10}$",
+   "$3\\sqrt{2}+2\\sqrt{5}$",
+   "$2\\sqrt{5}+2\\sqrt{10}$",
+   "$2\\sqrt{2}+4\\sqrt{5}$",
+   "$4\\sqrt{5}+\\sqrt{10}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q22",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 22
+  },
+  "subject": "중학교",
+  "unit": "함수",
+  "standards": [
+   "[9수02-16]",
+   "[9수02-15]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 3,
+  "concepts": [
+   "일차함수의 기울기",
+   "y절편"
+  ],
+  "stem": "기울기가 2이고 점 $(1,\\,5)$를 지나는 직선의 $y$절편을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q23",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 23
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수01-10]",
+   "[9수01-07]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 27,
+  "concepts": [
+   "근호를 포함한 식의 계산",
+   "제곱근의 성질"
+  ],
+  "stem": "$\\sqrt{3}+\\sqrt{12}=\\sqrt{n}$을 만족시키는 자연수 $n$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q24",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 24
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수02-08]",
+   "[9수01-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 12,
+  "concepts": [
+   "지수법칙",
+   "소인수분해"
+  ],
+  "stem": "두 자연수 $a$, $b$에 대하여\n\n$\\left(2^{a}\\times 4^{a}\\times 3^{b}\\right)^{n}=2^{72}\\times 3^{36}$\n\n을 만족시키는 자연수 $n$의 최댓값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q25",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 25
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수01-06]",
+   "[9수01-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 30,
+  "concepts": [
+   "순환소수를 분수로",
+   "소인수분해"
+  ],
+  "stem": "순환소수 $0.\\dot{0}\\dot{2}$를 분수로 나타내면 $\\frac{q}{p}$일 때, 자연수 $n$에 대하여 $\\frac{6}{p}\\times n+\\frac{q}{11}$가 자연수가 되도록 하는 $n$의 최솟값을 구하시오. (단, $p$와 $q$는 서로소인 자연수이다.)",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q26",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 26
+  },
+  "subject": "중학교",
+  "unit": "확률과 통계",
+  "standards": [
+   "[9수04-07]",
+   "[9수04-01]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 14,
+  "concepts": [
+   "중앙값",
+   "분산"
+  ],
+  "stem": "다음은 어느 날 6개 지역의 일일 최저 기온을 조사하여 나타낸 자료이다.\n\n(단위: ℃)\n\n$-2,\\,1,\\,7,\\,6,\\,-3,\\,a$\n\n이 자료의 중앙값이 2일 때, 분산을 구하시오. (단, $a$는 실수이다.)",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q27",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 27
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-05]",
+   "[9수03-09]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 141,
+  "concepts": [
+   "정다각형의 내각",
+   "이등변삼각형",
+   "삼각형의 내각의 합"
+  ],
+  "stem": "그림과 같이 정육각형 ABCDEF에 대하여 변 AB를 한 변으로 하는 정사각형과 변 EF를 한 변으로 하는 정오각형이 있다. 이 정사각형에서 꼭짓점 A와 이웃한 꼭짓점 중 B가 아닌 점을 G, 이 정오각형에서 꼭짓점 F와 이웃한 꼭짓점 중 E가 아닌 점을 H라 하자. 두 선분 AH, FG가 만나는 점을 I라 할 때, $\\angle \\mathrm{AIF}=x^{\\circ}$이다. $x$의 값을 구하시오. (단, 점 G와 점 H는 정육각형 ABCDEF의 외부에 있다.)",
+  "figure": "images/edu-2026-03-g1-q27-fig.png",
+  "figureWidthMm": 78,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q28",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 28
+  },
+  "subject": "중학교",
+  "unit": "함수",
+  "standards": [
+   "[9수02-07]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 24,
+  "concepts": [
+   "정비례 관계의 그래프",
+   "반비례 관계의 그래프",
+   "사다리꼴의 넓이"
+  ],
+  "stem": "그림과 같이 양수 $a$에 대하여 두 반비례 관계 $y=\\frac{a}{x}$, $y=-\\frac{2a}{x}$의 그래프가 있다. 양수 $m$에 대하여 정비례 관계 $y=mx$의 그래프가 $y=\\frac{a}{x}$의 그래프와 제1사분면에서 만나는 점을 A라 하고, 점 A를 지나고 $x$축에 수직인 직선이 $y=-\\frac{2a}{x}$의 그래프와 만나는 점을 B라 하자. $y=mx$의 그래프 위의 점 중 $x$좌표가 점 A의 $x$좌표의 $\\frac{1}{2}$배인 점을 C라 하고, 점 C를 지나고 $x$축에 수직인 직선이 $y=-\\frac{2a}{x}$의 그래프와 만나는 점을 D라 하자. 사각형 ACDB의 넓이가 45일 때, $a$의 값을 구하시오.",
+  "figure": "images/edu-2026-03-g1-q28-fig.png",
+  "figureWidthMm": 71,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q29",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 29
+  },
+  "subject": "중학교",
+  "unit": "함수",
+  "standards": [
+   "[9수02-22]",
+   "[9수02-14]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 6,
+  "concepts": [
+   "이차함수의 꼭짓점",
+   "삼각형의 넓이",
+   "함숫값"
+  ],
+  "stem": "0이 아닌 실수 $a$에 대하여 이차함수\n\n$f(x)=ax^{2}-3ax-4a^{2}-8a-2$\n\n가 있다. 이차함수 $y=f(x)$의 그래프의 꼭짓점을 A라 하고, 이 그래프가 $y$축과 만나는 점을 B라 하자. 세 점 O, A, B를 꼭짓점으로 하는 삼각형의 넓이가 $\\frac{3}{2}$이 되도록 하는 모든 $f(x)$에 대하여 $f(1)$의 값의 합을 구하시오. (단, O는 원점이고, 점 B는 점 O가 아니다.)",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-03-g1-q30",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 3,
+   "grade": "고1",
+   "no": 30
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-19]",
+   "[9수03-10]",
+   "[9수03-09]",
+   "[9수03-11]",
+   "[9수03-13]",
+   "[9수03-16]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 25,
+  "concepts": [
+   "원주각의 성질",
+   "삼각형의 내심",
+   "삼각형의 닮음",
+   "삼각비"
+  ],
+  "stem": "그림과 같이 $\\overline{AB}=16$, $\\overline{BC}=15$, $\\angle \\mathrm{B}<90^{\\circ}$인 평행사변형 ABCD의 변 CD 위에 $\\overline{CE}=6$인 점 E가 있다. 직선 BC와 직선 AE의 교점을 F라 할 때, $\\overline{EF}=9$이다. 삼각형 ABF의 내심을 I, 선분 DF의 수직이등분선과 직선 CD의 교점을 J라 할 때, 선분 AE 위의 점 K는 $\\overline{IJ}=\\overline{KJ}$를 만족시킨다. $\\tan(\\angle \\mathrm{FKD})=\\frac{q\\sqrt{2}}{p}$일 때, $p+q$의 값을 구하시오. (단, $p$와 $q$는 서로소인 자연수이다.)",
+  "figure": "images/edu-2026-03-g1-q30-fig.png",
+  "figureWidthMm": 73,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q16",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 16
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "standards": [
+   "[10공수1-02-07]",
+   "[10공수1-01-02]",
+   "[10공수1-02-02]"
+  ],
+  "concepts": [
+   "삼차방정식의 풀이",
+   "인수정리",
+   "판별식"
+  ],
+  "stem": "$x$에 대한 삼차방정식\n$x^3-2(m+1)x^2+4(m+1)x-8=0$\n의 서로 다른 실근의 개수가 $1$이 되도록 하는 모든 정수 $m$의 개수는?",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q17",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 17
+  },
+  "subject": "공통수학1",
+  "unit": "경우의 수",
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "standards": [
+   "[10공수1-03-01]",
+   "[10공수1-03-02]"
+  ],
+  "concepts": [
+   "곱의 법칙",
+   "순열",
+   "조건이 있는 나열"
+  ],
+  "stem": "숫자 $1$, $2$, $3$, $4$, $5$, $6$, $7$이 하나씩 적혀 있는 $7$장의 카드가 있다. 이 $7$장의 카드를 모두 한 번씩 사용하여 일렬로 나열할 때, 다음 조건을 만족시키는 경우의 수는?\n(가) 양 끝에 놓인 카드에 적힌 수는 모두 홀수이다.\n(나) 숫자 $6$이 적힌 카드의 바로 양옆에 놓인 카드에 적힌 두 수의 곱은 짝수이다.",
+  "choices": [
+   "972",
+   "984",
+   "996",
+   "1008",
+   "1020"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q18",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 18
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "standards": [
+   "[10공수1-02-05]",
+   "[10공수1-02-03]",
+   "[10공수1-02-06]"
+  ],
+  "concepts": [
+   "이차함수의 그래프와 직선의 교점",
+   "근과 계수의 관계",
+   "제한된 범위에서 최솟값"
+  ],
+  "stem": "$2\\leq m\\leq 6$인 실수 $m$에 대하여 이차함수 $f(x)=x^2+x-4$의 그래프와 직선 $y=mx+4$가 만나는 두 점을 각각 A, B라 하자. 두 점 C$(0,\\,-4)$, D$(0,\\,4)$에 대하여 삼각형 OAC의 넓이를 $S_1$, 삼각형 OBD의 넓이를 $S_2$라 할 때, $\\left(S_1+S_2\\right)^2$의 최솟값은? (단, O는 원점이고, 점 A의 $x$좌표는 점 B의 $x$좌표보다 작다.)",
+  "figure": "images/edu-2026-09-g1-q18-fig.png",
+  "figureWidthMm": 82,
+  "choices": [
+   "130",
+   "132",
+   "134",
+   "136",
+   "138"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q19",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 19
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "standards": [
+   "[10공수1-02-05]",
+   "[10공수1-02-02]",
+   "[10공수1-02-04]"
+  ],
+  "concepts": [
+   "이차함수의 그래프와 직선의 접함",
+   "판별식과 중근",
+   "이차함수의 식 세우기"
+  ],
+  "stem": "최고차항의 계수가 양수인 이차함수 $y=f(x)$의 그래프가 $x$축과 만나는 두 점을 각각 A$(4,\\,0)$, B$(a,\\,0)$ $(a>4)$라 하고, $y$축과 만나는 점을 C라 하자. 함수 $y=f(x)$의 그래프와 직선 $y=-x$가 한 점 P에서만 만난다. 다음은 삼각형 OPB의 넓이를 $S_1$, 삼각형 OPC의 넓이를 $S_2$라 할 때, $S_1=S_2$가 되도록 하는 $a$의 값을 구하는 과정이다. (단, O는 원점이다.)\n이차함수 $f(x)$의 최고차항의 계수를 $k$ $(k>0)$이라 하면\n$f(x)=k(x-4)(x-a)$\n$S_1=S_2$이므로 직선 BC의 기울기는 [(가)]이다.\n함수 $y=f(x)$의 그래프와 직선 BC가 두 점 B, C에서 만나므로 방정식 $k(x-4)(x-a)=$ [(가)] $\\times(x-a)$의 두 근은 $0$, $a$이다.\n$k=$ [(나)]\n함수 $y=f(x)$의 그래프와 직선 $y=-x$가 한 점 P에서만 만나므로 $x$에 대한 이차방정식\n[(나)] $\\times(x-4)(x-a)=-x$는 중근을 갖는다.\n따라서 $a=$ [(다)]이다.\n위의 (가), (나), (다)에 알맞은 수를 각각 $p$, $q$, $r$이라 할 때, $\\frac{p+r}{q}$의 값은?",
+  "figure": "images/edu-2026-09-g1-q19-fig.png",
+  "figureWidthMm": 88,
+  "choices": [
+   "60",
+   "64",
+   "68",
+   "72",
+   "76"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q20",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 20
+  },
+  "subject": "공통수학1",
+  "unit": "경우의 수",
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "standards": [
+   "[10공수1-03-01]",
+   "[10공수1-03-03]"
+  ],
+  "concepts": [
+   "합의 법칙과 곱의 법칙",
+   "조합",
+   "조건이 있는 분배"
+  ],
+  "stem": "$1$부터 $7$까지의 자연수가 하나씩 적혀 있는 $7$개의 빈 상자와 A, B, C, D, E의 문자가 하나씩 적혀 있는 $5$개의 공이 있다. 그림과 같이 상자에 적힌 수가 작은 수부터 크기순으로 왼쪽에서 오른쪽으로 일렬로 배열되도록 $7$개의 빈 상자가 놓여 있다. 각 상자에 들어 있는 공의 개수가 $2$ 이하가 되도록 공을 상자에 남김없이 나누어 넣을 때, 다음 조건을 만족시키는 경우의 수는? (단, 공을 넣는 순서는 고려하지 않는다.)\n(가) $1\\leq n\\leq 5$인 모든 자연수 $n$에 대하여 숫자 $n$, $n+1$, $n+2$가 적힌 세 상자 중 적어도 $1$개의 상자에는 $2$개의 공이 들어 있다.\n(나) $2$개의 공이 들어 있는 두 상자 사이에 놓인 모든 상자에는 공이 들어 있지 않다.",
+  "figure": "images/edu-2026-09-g1-q20-fig.png",
+  "figureWidthMm": 105,
+  "choices": [
+   "240",
+   "270",
+   "300",
+   "330",
+   "360"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q21",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 21
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "standards": [
+   "[10공수1-02-04]"
+  ],
+  "concepts": [
+   "이차방정식과 이차함수",
+   "이차함수 그래프의 대칭성"
+  ],
+  "stem": "두 실수 $a$, $b$에 대하여 두 이차함수 $f(x)$, $g(x)$가\n$f(x)=\\frac{1}{4}(x-a)^2+2$, $g(x)=-\\frac{1}{4}(x-b)^2+6$\n이다. 양수 $t$와 두 함수 $f(x)$, $g(x)$가 다음 조건을 만족시킨다.\n$x$에 대한 방정식 $(f(x)-6)(g(x)-2)=0$의 서로 다른 실근은 $-3$, $-3+t$, $-3+2t$뿐이다.\n$g(0)>0$일 때, $f(t)+g(t)$의 값은?",
+  "choices": [
+   "$-12$",
+   "$-10$",
+   "$-8$",
+   "$-6$",
+   "$-4$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q22",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 22
+  },
+  "subject": "공통수학1",
+  "unit": "경우의 수",
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 23,
+  "standards": [
+   "[10공수1-03-03]",
+   "[10공수1-03-02]"
+  ],
+  "concepts": [
+   "조합의 수",
+   "순열의 수"
+  ],
+  "stem": "${}_3\\mathrm{C}_1+{}_5\\mathrm{P}_2$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q23",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 23
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 7,
+  "standards": [
+   "[10공수1-02-02]"
+  ],
+  "concepts": [
+   "이차방정식의 판별식",
+   "허근 조건"
+  ],
+  "stem": "$x$에 대한 이차방정식 $x^2-3x+10-a=0$이 서로 다른 두 허근을 갖도록 하는 모든 자연수 $a$의 개수를 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q24",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 24
+  },
+  "subject": "공통수학1",
+  "unit": "행렬",
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 5,
+  "standards": [
+   "[10공수1-04-02]"
+  ],
+  "concepts": [
+   "행렬의 곱셈",
+   "행렬의 덧셈",
+   "영행렬"
+  ],
+  "stem": "두 행렬 $A=\\begin{pmatrix}-1&a\\\\2&b\\end{pmatrix}$, $B=\\begin{pmatrix}1&-3\\\\2&-b\\end{pmatrix}$가 $AB+BA=O$를 만족시킬 때, $a+b$의 값을 구하시오. (단, $a$와 $b$는 상수이고, $O$는 영행렬이다.)",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q25",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 25
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 12,
+  "standards": [
+   "[10공수1-02-08]",
+   "[10공수1-01-03]"
+  ],
+  "concepts": [
+   "연립이차방정식",
+   "인수분해"
+  ],
+  "stem": "연립방정식\n$\\begin{cases} x^2-xy-6y^2=0 \\\\ x^2+3y^2=48 \\end{cases}$\n의 해를 $x=\\alpha$, $y=\\beta$라 할 때, $\\alpha\\times\\beta$의 값을 구하시오. (단, $\\alpha>0$, $\\beta>0$)",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q26",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 26
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 6,
+  "standards": [
+   "[10공수1-02-11]",
+   "[10공수1-02-10]"
+  ],
+  "concepts": [
+   "연립이차부등식",
+   "절댓값을 포함한 부등식",
+   "정수해의 개수"
+  ],
+  "stem": "$x$에 대한 연립부등식\n$\\begin{cases} |x-a|\\leq 2 \\\\ x^2+(a^2-5)x-5a^2\\leq 0 \\end{cases}$\n을 만족시키는 정수 $x$의 개수가 $5$가 되도록 하는 모든 자연수 $a$의 값의 합을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q27",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 27
+  },
+  "subject": "공통수학1",
+  "unit": "다항식",
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 77,
+  "standards": [
+   "[10공수1-01-01]",
+   "[10공수1-01-02]"
+  ],
+  "concepts": [
+   "다항식의 나눗셈",
+   "항등식의 성질"
+  ],
+  "stem": "모든 항의 계수가 실수인 두 다항식 $f(x)$, $g(x)$가 다음 조건을 만족시킨다.\n(가) $f(x)$를 $g(x)+x^2$으로 나눈 몫은 $x$이고, 나머지는 $g(x)-2x^2+4x$이다.\n(나) $f(x)$는 $g(x)$로 나누어떨어진다.\n$f(3)$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q28",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 28
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 167,
+  "standards": [
+   "[10공수1-02-04]"
+  ],
+  "concepts": [
+   "이차함수의 그래프와 x축의 교점",
+   "이등변삼각형 조건",
+   "삼각형의 넓이"
+  ],
+  "stem": "이차함수 $f(x)=(x+3)(x-k)$ $(k>0)$이 $f(-2)<f(0)$을 만족시킨다. 함수 $y=f(x)$의 그래프가 $x$축과 만나는 서로 다른 두 점을 각각 A, B라 하고, $y$축과 만나는 점을 C라 하자. 삼각형 ABC가 이등변삼각형일 때, 삼각형 ABC의 넓이는 $\\frac{q}{p}$이다. $p+q$의 값을 구하시오. (단, $p$와 $q$는 서로소인 자연수이다.)",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q29",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 29
+  },
+  "subject": "공통수학1",
+  "unit": "경우의 수",
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 66,
+  "standards": [
+   "[10공수1-03-01]",
+   "[10공수1-03-03]"
+  ],
+  "concepts": [
+   "합의 법칙과 곱의 법칙",
+   "조합",
+   "조건이 있는 순서쌍"
+  ],
+  "stem": "다음 조건을 만족시키는 $9$ 이하의 자연수 $a$, $b$, $c$, $d$, $e$의 모든 순서쌍 $(a,\\,b,\\,c,\\,d,\\,e)$의 개수를 구하시오.\n(가) $a<b<c<d<e$\n(나) $2(b-a)<e-b$\n(다) $b\\times e$는 짝수이다.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2026-09-g1-q30",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2026,
+   "month": 9,
+   "grade": "고1",
+   "no": 30
+  },
+  "subject": "공통수학1",
+  "unit": "방정식과 부등식",
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 24,
+  "standards": [
+   "[10공수1-02-05]",
+   "[10공수1-02-02]",
+   "[10공수1-02-03]"
+  ],
+  "concepts": [
+   "이차함수의 그래프와 직선의 접함",
+   "판별식",
+   "근과 계수의 관계"
+  ],
+  "stem": "두 양수 $a$, $b$와 실수 $k$ $(k\\neq 0)$에 대하여 두 이차함수\n$f(x)=(x-a)^2+b$, $g(x)=(x-a-k)^2+b+2k$\n가 있다. 직선 $y=2x$가 두 곡선 $y=f(x)$, $y=g(x)$와 만나는 서로 다른 모든 점의 개수가 $2$이다. 직선 $y=f(0)$이 곡선 $y=f(x)$와 만나는 두 점의 $x$좌표는 $0$, $t_1$이다. 직선 $y=f(0)$이 곡선 $y=g(x)$와 서로 다른 두 점에서 만나고, 두 교점의 $x$좌표는 $t_2$, $t_3$이다. 세 실수 $t_1$, $t_2$, $t_3$이 다음 조건을 만족시킨다.\n(가) $t_2<0<t_3<t_1$\n(나) $t_1=2(t_2+t_3)$\n두 곡선 $y=f(x)$, $y=g(x)$의 교점을 지나고 곡선 $y=f(x)$와 한 점에서만 만나는 직선을 $y=h(x)$라 할 때, $x$에 대한 방정식 $g(x)=h(x)$의 서로 다른 두 실근의 합은 $2(a+k)$이다. $f(k)-g(k)$의 값을 구하시오.",
+  "outOfCurriculum": false
  }
 ]
