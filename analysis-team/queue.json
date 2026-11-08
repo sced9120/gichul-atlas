@@ -141,8 +141,8 @@
    "subject": null,
    "curriculum": "2022",
    "count": 30,
-   "status": "todo",
-   "next_no": 1
+   "status": "doing",
+   "next_no": 16
   },
   {
    "id": "edu-2026-06-g1",
@@ -156,8 +156,9 @@
    "subject": null,
    "curriculum": "2022",
    "count": 30,
-   "status": "todo",
-   "next_no": 1
+   "status": "done",
+   "next_no": 31,
+   "finished_at": "2026-11-09T00:20+09:00"
   },
   {
    "id": "edu-2026-09-g1",
@@ -171,7 +172,7 @@
    "subject": null,
    "curriculum": "2022",
    "count": 30,
-   "status": "todo",
+   "status": "doing",
    "next_no": 1
   },
   {
