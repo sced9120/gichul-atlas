@@ -141,8 +141,9 @@
    "subject": null,
    "curriculum": "2022",
    "count": 30,
-   "status": "doing",
-   "next_no": 16
+   "status": "done",
+   "next_no": 31,
+   "finished_at": "2026-11-09T00:24+09:00"
   },
   {
    "id": "edu-2026-06-g1",
@@ -172,8 +173,9 @@
    "subject": null,
    "curriculum": "2022",
    "count": 30,
-   "status": "doing",
-   "next_no": 1
+   "status": "done",
+   "next_no": 31,
+   "finished_at": "2026-11-09T00:26+09:00"
   },
   {
    "id": "edu-2026-10-g1",
@@ -187,7 +189,7 @@
    "subject": null,
    "curriculum": "2022",
    "count": 30,
-   "status": "todo",
+   "status": "doing",
    "next_no": 1
   }
  ]
