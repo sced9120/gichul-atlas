@@ -3880,5 +3880,1000 @@
   ],
   "stem": "최고차항의 계수가 양수인 이차함수 $f(x)$와 최고차항의 계수가 음수인 이차함수 $g(x)$에 대하여 두 집합\n$X=\\{x||f(x)|=1,\\,x$는 실수$\\}$,\n$Y=\\{x||g(x)|=1,\\,x$는 실수$\\}$\n가 다음 조건을 만족시킨다.\n(가) $n(X\\cap Y)=3$, $n(X\\cup Y)=4$\n(나) 집합 $X\\cap Y$의 모든 원소의 합은 $3$이고 집합 $X\\cup Y$의 모든 원소의 합은 $8$이다.\n$f(2)<f(1)$일 때, $f(7)-g(9)$의 값을 구하시오.",
   "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q1",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 1
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수01-10]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "근호를 포함한 식의 계산",
+   "제곱근의 성질"
+  ],
+  "stem": "$\\sqrt{6}\\times\\sqrt{\\frac{1}{2}}+\\sqrt{3}$ 의 값은?",
+  "choices": [
+   "$\\frac{\\sqrt{3}}{2}$",
+   "$\\sqrt{3}$",
+   "$\\frac{3\\sqrt{3}}{2}$",
+   "$2\\sqrt{3}$",
+   "$\\frac{5\\sqrt{3}}{2}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q2",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 2
+  },
+  "subject": "중학교",
+  "unit": "함수",
+  "standards": [
+   "[9수02-16]",
+   "[9수02-15]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "일차함수의 기울기",
+   "y절편"
+  ],
+  "stem": "일차함수 $y=2x+3$ 의 그래프에서 기울기와 $y$절편의 곱은?",
+  "choices": [
+   "$4$",
+   "$6$",
+   "$8$",
+   "$10$",
+   "$12$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q3",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 3
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수02-20]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "이차방정식의 근의 공식"
+  ],
+  "stem": "이차방정식 $x^2-3x-1=0$ 의 두 근 중 양수인 근은?",
+  "choices": [
+   "$\\frac{3+\\sqrt{11}}{2}$",
+   "$\\frac{3+\\sqrt{13}}{2}$",
+   "$\\frac{6+\\sqrt{11}}{2}$",
+   "$\\frac{6+\\sqrt{13}}{2}$",
+   "$\\frac{6+\\sqrt{15}}{2}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q4",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 4
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-16]",
+   "[9수03-15]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "삼각비의 뜻",
+   "피타고라스 정리"
+  ],
+  "stem": "그림과 같이 $\\angle B=90^\\circ$ 인 직각삼각형 ABC 에서 $\\overline{AB}=3$, $\\overline{BC}=\\sqrt{7}$ 일 때, $\\cos A$ 의 값은?",
+  "choices": [
+   "$\\frac{3}{8}$",
+   "$\\frac{1}{2}$",
+   "$\\frac{5}{8}$",
+   "$\\frac{3}{4}$",
+   "$\\frac{7}{8}$"
+  ],
+  "figure": "images/edu-2025-03-g1-q4-fig.png",
+  "figureWidthMm": 42,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q5",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 5
+  },
+  "subject": "중학교",
+  "unit": "확률과 통계",
+  "standards": [
+   "[9수04-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "도수분포다각형 해석"
+  ],
+  "stem": "어느 학급 학생들의 키를 조사하여 나타낸 도수분포다각형이 그림과 같다. 이 학생들 중 키가 $160\\,\\text{cm}$ 이상인 학생의 수는?",
+  "choices": [
+   "$16$",
+   "$18$",
+   "$20$",
+   "$22$",
+   "$24$"
+  ],
+  "figure": "images/edu-2025-03-g1-q5-fig.png",
+  "figureWidthMm": 65,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q6",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 6
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수02-13]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "연립일차방정식의 풀이"
+  ],
+  "stem": "연립방정식 $\\begin{cases} x+2y=1 \\\\ 2x-3y=9 \\end{cases}$ 의 해가 $x=a$, $y=b$ 일 때, $a+b$ 의 값은?",
+  "choices": [
+   "$-2$",
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$2$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q7",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 7
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수02-19]",
+   "[9수03-08]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "다항식의 곱셈",
+   "직육면체의 겉넓이"
+  ],
+  "stem": "세 모서리의 길이가 $x-1$, $x+1$, $2x+1$ 인 직육면체의 겉넓이는? (단, $x>1$)",
+  "choices": [
+   "$8x^2+4x-2$",
+   "$8x^2+6x+2$",
+   "$10x^2+4x-2$",
+   "$10x^2+6x+2$",
+   "$12x^2+8x-2$"
+  ],
+  "figure": "images/edu-2025-03-g1-q7-fig.png",
+  "figureWidthMm": 44,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q8",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 8
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-12]",
+   "[9수03-14]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "삼각형의 무게중심",
+   "평행선과 선분의 길이의 비"
+  ],
+  "stem": "그림과 같이 $\\overline{BC}=12$ 인 삼각형 ABC 의 무게중심을 G 라 하자. 점 G 를 지나고 선분 BC 와 평행한 직선이 선분 AC 와 만나는 점을 D 라 할 때, 선분 GD 의 길이는?",
+  "choices": [
+   "$\\frac{7}{2}$",
+   "$4$",
+   "$\\frac{9}{2}$",
+   "$5$",
+   "$\\frac{11}{2}$"
+  ],
+  "figure": "images/edu-2025-03-g1-q8-fig.png",
+  "figureWidthMm": 52,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q9",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 9
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수02-04]",
+   "[9수02-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "일차방정식의 활용",
+   "문자를 사용한 식"
+  ],
+  "stem": "어느 학생이 $7$일 동안 매일 달리기 연습을 하였다. 첫째 날에는 $x\\,\\text{m}$ 만큼 달렸고, 둘째 날에는 첫째 날보다 $300\\,\\text{m}$ 만큼 더 달렸다. 셋째 날에는 둘째 날보다 $300\\,\\text{m}$ 만큼 더 달렸고, 넷째 날부터는 매일 그 전날과 같은 거리만큼 달렸다. 이 학생이 $7$일 동안 총 $8900\\,\\text{m}$ 만큼 달렸을 때, $x$ 의 값은?",
+  "choices": [
+   "$400$",
+   "$500$",
+   "$600$",
+   "$700$",
+   "$800$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q10",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 10
+  },
+  "subject": "중학교",
+  "unit": "확률과 통계",
+  "standards": [
+   "[9수04-06]",
+   "[9수04-05]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "확률의 뜻",
+   "경우의 수"
+  ],
+  "stem": "서로 다른 두 개의 주사위를 동시에 던질 때, 각각의 주사위에서 나오는 눈의 수의 합이 소수일 확률은?",
+  "choices": [
+   "$\\frac{1}{3}$",
+   "$\\frac{13}{36}$",
+   "$\\frac{7}{18}$",
+   "$\\frac{5}{12}$",
+   "$\\frac{4}{9}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q11",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 11
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-17]",
+   "[9수03-16]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "특수각의 삼각비",
+   "삼각비의 활용"
+  ],
+  "stem": "그림과 같이 $\\angle B=30^\\circ$, $\\angle C=90^\\circ$ 인 직각삼각형 ABC 가 있다. 선분 BC 위의 점 D 와 선분 AC 위의 점 E 에 대하여 $\\overline{BD}=12\\sqrt{3}$, $\\overline{CE}=15$, $\\angle CDE=60^\\circ$ 일 때, 선분 AE 의 길이는?",
+  "choices": [
+   "$\\frac{\\sqrt{3}}{2}$",
+   "$1$",
+   "$\\frac{3}{2}$",
+   "$\\sqrt{3}$",
+   "$2$"
+  ],
+  "figure": "images/edu-2025-03-g1-q11-fig.png",
+  "figureWidthMm": 65,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q12",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 12
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-15]",
+   "[9수03-11]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "피타고라스 정리",
+   "평행사변형의 성질",
+   "삼각형의 넓이"
+  ],
+  "stem": "그림과 같이 $\\overline{AB}=13$, $\\overline{BC}=11$, $\\angle CBA<90^\\circ$ 인 평행사변형 ABCD 의 두 대각선이 만나는 점을 E 라 하자. 삼각형 BCE 의 넓이가 $33$ 일 때, 선분 BD 의 길이는?",
+  "choices": [
+   "$16$",
+   "$17$",
+   "$18$",
+   "$19$",
+   "$20$"
+  ],
+  "figure": "images/edu-2025-03-g1-q12-fig.png",
+  "figureWidthMm": 52,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q13",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 13
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-08]",
+   "[9수02-04]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "구의 부피",
+   "원기둥의 부피",
+   "일차방정식"
+  ],
+  "stem": "[그림 1]과 같이 밑면의 반지름의 길이가 $4\\,\\text{cm}$ 인 원기둥 모양의 그릇에 아랫면에서부터 $x\\,\\text{cm}$ 높이까지 물이 채워져 있다. 이 그릇 안에 반지름의 길이가 $3\\,\\text{cm}$ 인 구 모양의 쇠구슬을 넣었더니 [그림 2]와 같이 쇠구슬이 물에 완전히 잠기고, 그릇의 아랫면에서부터 수면까지의 높이가 $8\\,\\text{cm}$ 가 되었다. $x$ 의 값은? (단, 그릇의 높이는 $8\\,\\text{cm}$ 보다 크고, 그릇의 두께는 생각하지 않는다.)",
+  "choices": [
+   "$\\frac{23}{4}$",
+   "$\\frac{25}{4}$",
+   "$\\frac{27}{4}$",
+   "$\\frac{29}{4}$",
+   "$\\frac{31}{4}$"
+  ],
+  "figure": "images/edu-2025-03-g1-q13-fig.png",
+  "figureWidthMm": 80,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q14",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 14
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-19]",
+   "[9수03-06]",
+   "[9수03-05]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "원주각의 성질",
+   "호의 길이와 원주각",
+   "삼각형의 내각"
+  ],
+  "stem": "그림과 같이 원 $O$ 에 내접하는 사각형 ABCD 가 있다. 이 사각형의 두 대각선이 서로 수직으로 만나고, 원 $O$ 에서 호 AB 의 길이와 호 CD 의 길이의 비가 $3:2$ 일 때, 각 ACB 의 크기는? (단, 호 AB 에 대한 중심각의 크기와 호 CD 에 대한 중심각의 크기는 모두 $180^\\circ$ 보다 작다.)",
+  "choices": [
+   "$51^\\circ$",
+   "$54^\\circ$",
+   "$57^\\circ$",
+   "$60^\\circ$",
+   "$63^\\circ$"
+  ],
+  "figure": "images/edu-2025-03-g1-q14-fig.png",
+  "figureWidthMm": 47,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q15",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "month": 3,
+   "grade": "고1",
+   "no": 15
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수02-19]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "인수분해",
+   "공통인수"
+  ],
+  "stem": "세 자연수 $a$, $b$, $c$ 에 대하여 $x$ 에 대한 두 이차식 $x^2+ax+27$, $x^2+bx-18$ 의 공통인 인수가 $x+c$ 일 때, $a+b+c$ 의 값은?",
+  "choices": [
+   "$22$",
+   "$24$",
+   "$26$",
+   "$28$",
+   "$30$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q16",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 16
+  },
+  "subject": "중학교",
+  "unit": "함수",
+  "standards": [
+   "[9수02-16]",
+   "[9수02-15]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "일차함수 그래프의 절편",
+   "평행한 두 직선의 기울기",
+   "사다리꼴"
+  ],
+  "stem": "일차함수 $y=\\frac{1}{2}x+4$의 그래프가 $x$축, $y$축과 만나는 점을 각각 A, B라 하고, 일차함수 $y=ax-2a\\,(a>0)$의 그래프가 $x$축, $y$축과 만나는 점을 각각 C, D라 하자. 사각형 ADCB가 사다리꼴이 되도록 하는 모든 상수 $a$의 값의 합은?",
+  "choices": [
+   "$\\frac{17}{2}$",
+   "$9$",
+   "$\\frac{19}{2}$",
+   "$10$",
+   "$\\frac{21}{2}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q17",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 17
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-19]",
+   "[9수03-13]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "원주각의 성질",
+   "삼각형의 닮음"
+  ],
+  "stem": "그림과 같이 삼각형 ABC와 이 삼각형의 외접원이 있다. 각 BAC의 이등분선과 이 원이 만나는 점 중 A가 아닌 점을 D라 하고, 직선 AD가 선분 BC와 만나는 점을 E라 하자. $\\overline{AB}=3$, $\\overline{AC}=5$, $\\overline{AD}=6$일 때, 선분 DE의 길이는?",
+  "figure": "images/edu-2025-03-g1-q17-fig.png",
+  "figureWidthMm": 48,
+  "choices": [
+   "$\\frac{19}{6}$",
+   "$\\frac{10}{3}$",
+   "$\\frac{7}{2}$",
+   "$\\frac{11}{3}$",
+   "$\\frac{23}{6}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q18",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 18
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-11]",
+   "[9수03-09]",
+   "[9수03-14]",
+   "[9수03-04]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "평행사변형의 성질",
+   "이등변삼각형",
+   "삼각형의 합동",
+   "평행선과 선분의 길이의 비"
+  ],
+  "stem": "그림과 같이 평행사변형 ABCD에서 각 B의 이등분선이 선분 AD와 만나는 점을 E라 하자. 선분 ED 위의 한 점 F에 대하여 $\\angle FDC=2\\times\\angle DCF$이다. 직선 BE와 직선 CF의 교점을 G라 할 때, $\\overline{EG}=3$, $\\overline{FG}=\\overline{FD}=2$이다. 선분 EF의 길이는?",
+  "figure": "images/edu-2025-03-g1-q18-fig.png",
+  "figureWidthMm": 67,
+  "choices": [
+   "$3$",
+   "$\\sqrt{10}$",
+   "$\\sqrt{11}$",
+   "$2\\sqrt{3}$",
+   "$\\sqrt{13}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q19",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 19
+  },
+  "subject": "중학교",
+  "unit": "함수",
+  "standards": [
+   "[9수02-07]",
+   "[9수03-15]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "반비례 관계의 그래프",
+   "피타고라스 정리"
+  ],
+  "stem": "그림과 같이 반비례 관계 $y=\\frac{a}{x}\\,(a>0)$의 그래프 위에 $\\overline{AB}=4$를 만족시키는 두 점 A, B가 있다. 점 A에서 $x$축에 내린 수선의 발을 C라 할 때, $\\overline{BC}=3$, $\\angle ABC=90^{\\circ}$이다. 상수 $a$의 값은? (단, 두 점 A, B는 제1사분면 위의 점이다.)",
+  "figure": "images/edu-2025-03-g1-q19-fig.png",
+  "figureWidthMm": 60,
+  "choices": [
+   "$\\frac{27}{4}$",
+   "$\\frac{29}{4}$",
+   "$\\frac{31}{4}$",
+   "$\\frac{33}{4}$",
+   "$\\frac{35}{4}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q20",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 20
+  },
+  "subject": "중학교",
+  "unit": "함수",
+  "standards": [
+   "[9수02-22]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "이차함수의 그래프와 꼭짓점",
+   "평행선과 삼각형의 넓이"
+  ],
+  "stem": "그림과 같이 $y$좌표가 서로 같고 제1사분면 위에 있는 두 점 A, B를 지나는 이차함수 $y=-ax^2+8ax\\,(a>0)$의 그래프가 있다. 이 이차함수의 그래프의 꼭짓점을 C라 하고, 점 C에서 $x$축에 내린 수선의 발을 D라 하자. 점 D를 지나고 선분 BC와 평행한 직선이 이 이차함수의 그래프와 만나는 점 중 제4사분면 위에 있는 점을 E라 할 때, 삼각형 CAB의 넓이와 삼각형 CEB의 넓이의 비는 $2:5$이다. 삼각형 AOD의 넓이가 12일 때, 상수 $a$의 값은? (단, O는 원점이고, 점 A의 $x$좌표는 점 B의 $x$좌표보다 작다.)",
+  "figure": "images/edu-2025-03-g1-q20-fig.png",
+  "figureWidthMm": 66,
+  "choices": [
+   "$\\frac{15}{32}$",
+   "$\\frac{17}{32}$",
+   "$\\frac{19}{32}$",
+   "$\\frac{21}{32}$",
+   "$\\frac{23}{32}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q21",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 21
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-11]",
+   "[9수03-13]",
+   "[9수03-09]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "평행사변형의 성질",
+   "삼각형의 닮음",
+   "넓이의 비"
+  ],
+  "stem": "그림과 같이 $\\overline{AB}=30$, $\\overline{BC}=45$, $\\angle CBA<90^{\\circ}$인 평행사변형 ABCD가 있다. 각 C의 이등분선과 직선 AB가 만나는 점을 E라 하고, 직선 CE가 선분 BD와 만나는 점을 F라 하자. 선분 CD 위의 $\\overline{DG}=10$인 점 G에 대하여 직선 EG가 선분 BD와 만나는 점을 H라 하자. 삼각형 DHG의 넓이가 35일 때, 삼각형 EFH의 넓이는?",
+  "figure": "images/edu-2025-03-g1-q21-fig.png",
+  "figureWidthMm": 73,
+  "choices": [
+   "$161$",
+   "$168$",
+   "$175$",
+   "$182$",
+   "$189$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q22",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 22
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수02-12]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 13,
+  "concepts": [
+   "일차부등식의 풀이",
+   "자연수 해"
+  ],
+  "stem": "일차부등식 $4x-30>x+7$을 만족시키는 자연수 $x$의 최솟값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q23",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 23
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수01-06]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 3,
+  "concepts": [
+   "순환소수",
+   "유리수와 순환소수"
+  ],
+  "stem": "분수 $\\frac{3}{22}$을 소수로 나타낼 때, 소수점 아래 여섯 번째 자리의 숫자를 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q24",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 24
+  },
+  "subject": "중학교",
+  "unit": "확률과 통계",
+  "standards": [
+   "[9수04-07]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 20,
+  "concepts": [
+   "편차의 합",
+   "분산"
+  ],
+  "stem": "다음은 5명의 학생 A, B, C, D, E의 수학 점수를 조사한 자료의 편차를 나타낸 표이다. 이 자료의 분산을 구하시오. (단, $a$는 실수이다.)\n학생 A, B, C, D, E의 편차(점)는 차례로 $-1$, $7$, $3$, $-4$, $a$이다.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q25",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 25
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수01-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 134,
+  "concepts": [
+   "소인수분해",
+   "직육면체의 겉넓이"
+  ],
+  "stem": "세 자연수 $a$, $b$, $c$에 대하여 가로의 길이가 $a$, 세로의 길이가 $b$, 높이가 $c$인 직육면체가 있다. 이 직육면체의 부피가 33이고 $a+b+c$가 7의 배수일 때, 이 직육면체의 겉넓이를 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q26",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 26
+  },
+  "subject": "중학교",
+  "unit": "대수",
+  "standards": [
+   "[9수01-05]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 68,
+  "concepts": [
+   "유리수의 사칙계산",
+   "최댓값 찾기"
+  ],
+  "stem": "세 수 $-\\frac{3}{2}$, $-\\frac{1}{2}$, $\\frac{4}{3}$가 하나씩 적혀 있는 세 장의 카드가 있다. 세 장의 카드 중에서 카드를 한 장씩 세 번 뽑을 때, 뽑힌 카드에 적힌 수를 차례로 $a$, $b$, $c$라 하자. $12\\times\\frac{b-c}{a}$의 값으로 가능한 가장 큰 값을 구하시오. (단, 뽑은 카드는 다시 뽑지 않는다.)",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q27",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 27
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-10]",
+   "[9수03-09]",
+   "[9수03-05]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 42,
+  "concepts": [
+   "삼각형의 외심",
+   "삼각형의 내심",
+   "이등변삼각형"
+  ],
+  "stem": "그림과 같이 $\\overline{AC}=\\overline{BC}$인 예각삼각형 ABC의 외심을 O라 할 때, $\\angle BAO=28^{\\circ}$이다. 선분 BC의 연장선 위에 $\\angle ADC=40^{\\circ}$가 되도록 점 D를 잡는다. 삼각형 ACD의 내심을 I라 할 때, $\\angle OAI=x^{\\circ}$이다. $x$의 값을 구하시오. (단, $\\overline{BD}>\\overline{CD}$)",
+  "figure": "images/edu-2025-03-g1-q27-fig.png",
+  "figureWidthMm": 78,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q28",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 28
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-10]",
+   "[9수03-15]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 37,
+  "concepts": [
+   "삼각형의 내심",
+   "내접원의 반지름과 넓이",
+   "피타고라스 정리"
+  ],
+  "stem": "그림과 같이 $\\overline{AC}=26$, $\\overline{BC}=17$인 예각삼각형 ABC가 있다. 삼각형 ABC의 내심을 I, 점 A에서 변 BC에 내린 수선의 발을 H라 하자. 삼각형 ABC의 넓이가 204일 때, $\\overline{IH}^2$의 값을 구하시오.",
+  "figure": "images/edu-2025-03-g1-q28-fig.png",
+  "figureWidthMm": 50,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q29",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 29
+  },
+  "subject": "중학교",
+  "unit": "함수",
+  "standards": [
+   "[9수02-22]",
+   "[9수02-16]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 121,
+  "concepts": [
+   "이차함수의 그래프",
+   "삼각형의 넓이",
+   "직선의 방정식"
+  ],
+  "stem": "이차항의 계수가 음수인 이차함수 $y=f(x)$의 그래프는 점 A(3, 6)을 지나고 꼭짓점이 제1사분면 위에 있다. 이차함수 $y=f(x)$의 그래프가 $y$축과 만나는 점을 B, $x$축과 만나는 점 중 $x$좌표가 음수인 점을 C라 하자. 점 B를 지나고 $x$축과 평행한 직선이 선분 AC와 만나는 점을 D라 할 때, 삼각형 ABD와 삼각형 BCD의 넓이는 각각 $\\frac{3}{2}$, $\\frac{9}{2}$이다. 이차함수 $y=f(x)$의 그래프의 꼭짓점의 $y$좌표가 $k$일 때, $16k$의 값을 구하시오. (단, 점 B의 $y$좌표는 0보다 크고 6보다 작다.)",
+  "figure": "images/edu-2025-03-g1-q29-fig.png",
+  "figureWidthMm": 66,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2025-03-g1-q30",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2025,
+   "grade": "고1",
+   "month": 3,
+   "no": 30
+  },
+  "subject": "중학교",
+  "unit": "기하",
+  "standards": [
+   "[9수03-19]",
+   "[9수03-04]",
+   "[9수03-13]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 64,
+  "concepts": [
+   "원주각의 성질",
+   "삼각형의 합동",
+   "삼각형의 닮음",
+   "넓이의 비"
+  ],
+  "stem": "그림과 같이 삼각형 ABC와 원 $O$가 점 A를 포함한 서로 다른 5개의 점에서 만난다. 선분 AB와 원 $O$가 만나는 점 중 A가 아닌 점을 D, 선분 AC와 원 $O$가 만나는 점 중 A가 아닌 점을 E라 하자. 선분 BC와 원 $O$가 만나는 점 중 점 B에 가까운 점을 F, 점 C에 가까운 점을 G라 하자. $\\overline{DB}=\\overline{DF}=\\overline{EG}$, $\\overline{AG}=3\\times\\overline{GC}$이고, 삼각형 EGC의 넓이가 8일 때, 삼각형 ABG의 넓이를 $S$, 삼각형 AGC의 넓이를 $T$라 하자. $S-T$의 값을 구하시오.",
+  "figure": "images/edu-2025-03-g1-q30-fig.png",
+  "figureWidthMm": 73,
+  "outOfCurriculum": false
  }
 ]

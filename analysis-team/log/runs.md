@@ -7,3 +7,4 @@
 - 2026-11-08T09:16+09:00 · edu-2024-06-g1 1–30 · 추가 30 · 확인 필요 0 · 수준: 전사 sonnet-low→sonnet-medium(q13), 정답·출처 haiku, 분류 opus-low, 오르빗 opus-low(2회)
 - 2026-11-08T09:16+09:00 · edu-2024-09-g1 1–30 · 추가 30 · 확인 필요 0 · 수준: 전사 sonnet-low→sonnet-medium(q11), 정답·출처 haiku, 분류 opus-low, 오르빗 opus-low(2회)
 - 2026-11-08T09:16+09:00 · edu-2024-10-g1 1–30 · 추가 30 · 확인 필요 0 (참고: q9 외분점 OOC true, q11 무게중심 코드) · 수준: 전사 sonnet-low, 정답·출처 haiku, 분류 opus-low→opus-medium(q29), 오르빗 opus-low(2회)
+- 2026-11-08T09:16+09:00 · edu-2025-03-g1 1–30 · 추가 30 · 확인 필요 0 · 수준: 전사 sonnet-low, 정답·출처 haiku, 분류 opus-low→opus-medium(q12·18·20·30), 오르빗 opus-low(2회)
