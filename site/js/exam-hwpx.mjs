@@ -112,14 +112,18 @@ export async function buildExamHwpx({ JSZip, template, style: S, problems, loadI
     `<hp:pos treatAsChar="1" affectLSpacing="0" flowWithText="1" allowOverlap="0" holdAnchorAndSO="0" vertRelTo="PARA" horzRelTo="COLUMN" vertAlign="TOP" horzAlign="LEFT" vertOffset="0" horzOffset="0"/>` +
     `<hp:outMargin left="0" right="0" top="0" bottom="0"/><hp:shapeComment>그림입니다.</hp:shapeComment></hp:pic>`;
 
+  // 그림: 한글 방식대로 BIN0001.png 이름 + content.hpf 목록 + header.xml binDataList 에 함께 등록.
+  // (binDataList 가 없거나 이름이 BIN#### 꼴이 아니면 모바일 한글 뷰어 등에서 자리만 잡히고 그림이 안 보인다.)
   let imgNo = 0;
+  const binItems = [];
   const embedImage = async path => {
     imgNo += 1;
     const ext = path.split('.').pop().toLowerCase();
-    const binId = `exam_img${imgNo}`;
+    const binId = `BIN${String(imgNo).padStart(4, '0')}`;
     zip.file(`BinData/${binId}.${ext}`, await loadImage(path), { createFolders: false });
     hpf = hpf.replace('</opf:manifest>',
       `<opf:item id="${binId}" href="BinData/${binId}.${ext}" media-type="image/${ext === 'jpg' ? 'jpeg' : ext}" isEmbeded="1"/></opf:manifest>`);
+    binItems.push(`<hh:binItem id="${imgNo - 1}" Type="Embedding" BinData="${binId}.${ext}" Format="${ext}"/>`);
     return binId;
   };
 
@@ -189,6 +193,13 @@ export async function buildExamHwpx({ JSZip, template, style: S, problems, loadI
   section = section.replace(/\{\{([A-Z0-9_]+)\}\}/g, (_, k) => esc(fill[k] ?? ''));
   section = section.replace('</hs:sec>', out.join('') + '</hs:sec>');
 
+  if (binItems.length) {
+    let header = await zip.file('Contents/header.xml').async('string');
+    header = header.replace(/<hh:binDataList[^>]*\/>|<hh:binDataList[\s\S]*?<\/hh:binDataList>/, '');
+    header = header.replace('</hh:refList>',
+      `<hh:binDataList itemCnt="${binItems.length}">${binItems.join('')}</hh:binDataList></hh:refList>`);
+    zip.file('Contents/header.xml', header, { createFolders: false });
+  }
   zip.file('Contents/section0.xml', section, { createFolders: false });
   zip.file('Contents/content.hpf', hpf, { createFolders: false });
   zip.file('mimetype', 'application/hwp+zip', { compression: 'STORE' });
