@@ -99,9 +99,12 @@ function runsToHtml(runs) {
 function runsPlain(runs) { return (runs || []).map(r => r.eq != null ? '' : (r.t ?? '')).join(''); }
 
 // ---- filtering
+// 문항이 놓이는 자리: 주 분류 + alsoIn(두 과목에 걸치는 문항)
+const places = p => [{ subject: p.subject, unit: p.unit }, ...(p.alsoIn || [])];
 const match = p => {
-  if (F.subject && p.subject !== F.subject) return false;
-  if (F.units.length && !F.units.includes(p.unit)) return false;
+  const pl = places(p).filter(x => !F.subject || x.subject === F.subject);
+  if (!pl.length) return false;
+  if (F.units.length && !pl.some(x => F.units.includes(x.unit))) return false;
   if (F.bands.length && !F.bands.includes(bandOf(p.points))) return false;
   if (F.pts.length && !F.pts.includes(p.points)) return false;
   if (p.rate == null) { if (!F.rnull) return false; }
@@ -109,7 +112,7 @@ const match = p => {
   if (p.src.year < F.ymin || p.src.year > F.ymax) return false;
   if (F.orgs.length && !F.orgs.includes(p.src.org)) return false;
   if (F.q) {
-    const hay = (p.concepts.join(' ') + ' ' + p.unit + ' ' + runsPlain(p.stemRuns)).toLowerCase();
+    const hay = (p.concepts.join(' ') + ' ' + places(p).map(x => x.unit).join(' ') + ' ' + runsPlain(p.stemRuns)).toLowerCase();
     if (!F.q.toLowerCase().split(/\s+/).every(w => hay.includes(w))) return false;
   }
   return true;
@@ -129,7 +132,7 @@ const toggle = (arr, v, on) => { const i = arr.indexOf(v); if (on && i < 0) arr.
 function buildFilters() {
   const fs = $('f-subject'); fs.textContent = '';
   chip(fs, 'subject', '', '전체', !F.subject, () => { F.subject = ''; F.units = []; buildUnits(); update(true); });
-  const present = new Set(problems.map(p => p.subject));
+  const present = new Set(problems.flatMap(p => places(p).map(x => x.subject)));
   curriculum.subjects.filter(s => present.has(s.name)).forEach(s =>
     chip(fs, 'subject', s.name, s.name, F.subject === s.name, () => { F.subject = s.name; F.units = []; buildUnits(); update(true); }));
   buildUnits();
@@ -169,7 +172,7 @@ function cardHtml(p) {
       <input class="pick" type="checkbox" aria-label="${esc(p.source)} 선택" data-id="${esc(p.id)}">
       <div class="meta"><span class="src">${esc(p.source)}</span><span class="stats">${fmtPts(p.points)}점 · ${rate} · ${esc(p.type)}</span></div>
     </div>
-    <div class="tags"><span class="tag unit">${esc(p.subject)} · ${esc(p.unit)}</span>${p.concepts.map(c => `<span class="tag">${esc(c)}</span>`).join('')}</div>
+    <div class="tags">${places(p).map(x => `<span class="tag unit">${esc(x.subject)} · ${esc(x.unit)}</span>`).join('')}${p.concepts.map(c => `<span class="tag">${esc(c)}</span>`).join('')}</div>
     <div class="stem">${runsToHtml(p.stemRuns)}</div>${fig}${img}
     ${ch ? `<div class="choices">${ch}</div>` : ''}
     <div class="pfoot"><button type="button" disabled title="곧 열립니다">분류 의견</button></div>`;

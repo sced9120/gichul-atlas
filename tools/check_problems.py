@@ -96,6 +96,14 @@ def main() -> int:
                 err(pid, "분류", f"subject '{subj}' 가 curriculum.json 에 없음")
             elif unit not in units[subj]:
                 err(pid, "분류", f"unit '{unit}' 가 {subj} 단원에 없음")
+            for extra in it.get("alsoIn") or []:
+                es, eu = extra.get("subject"), extra.get("unit")
+                if es not in units:
+                    err(pid, "분류", f"alsoIn subject '{es}' 가 curriculum.json 에 없음")
+                elif eu not in units[es]:
+                    err(pid, "분류", f"alsoIn unit '{eu}' 가 {es} 단원에 없음")
+                elif (es, eu) == (subj, unit):
+                    err(pid, "분류", "alsoIn 이 주 분류와 같음")
             if not it.get("standards"):
                 err(pid, "분류", "standards(성취기준 코드) 비어 있음")
             if not it.get("concepts"):

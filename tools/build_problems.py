@@ -64,6 +64,8 @@ def runs_width(runs: list[dict]) -> int:
 
 def build(item: dict, base: Path) -> dict:
     out = {k: item.get(k) for k in ("id", "area", "subject", "unit", "standards", "points", "rate", "type", "answer", "concepts", "outOfCurriculum")}
+    if item.get("alsoIn"):   # 두 과목에 걸치는 문항: [{"subject":…, "unit":…}] (선생님 결정 2026-11-08)
+        out["alsoIn"] = item["alsoIn"]
     out["src"] = item["src"]
     out["source"] = format_source(item["src"])
     if item.get("stem"):
