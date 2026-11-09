@@ -13562,5 +13562,1918 @@
    "$\\frac{4}{3}$"
   ],
   "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q1",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 1
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-03]",
+   "[12대수01-02]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "유리수 지수",
+   "지수법칙"
+  ],
+  "stem": "$2^{-1}\\times 8^{\\frac{5}{3}}$의 값은?",
+  "choices": [
+   "1",
+   "2",
+   "4",
+   "8",
+   "16"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q2",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 2
+  },
+  "subject": "미적분I",
+  "unit": "함수의 극한과 연속",
+  "standards": [
+   "[12미적Ⅰ-01-02]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "함수의 극한값",
+   "∞/∞ 꼴의 극한"
+  ],
+  "stem": "$\\lim_{x\\to\\infty}\\frac{(2x+1)^2}{x^2+4x+5}$의 값은?",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q3",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 3
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-02]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "등차수열의 일반항",
+   "공차"
+  ],
+  "stem": "등차수열 $\\{a_n\\}$에 대하여\n$a_4=10,\\,a_7-a_5=6$\n일 때, $a_1$의 값은?",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q4",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 4
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "삼각함수 사이의 관계",
+   "사분면과 삼각함수의 부호"
+  ],
+  "stem": "$\\frac{\\pi}{2}<\\theta<\\pi$인 $\\theta$에 대하여 $\\sin\\theta=-3\\cos\\theta$일 때, $\\cos\\theta$의 값은?",
+  "choices": [
+   "$-\\frac{3\\sqrt{10}}{10}$",
+   "$-\\frac{\\sqrt{10}}{5}$",
+   "$-\\frac{\\sqrt{10}}{10}$",
+   "$\\frac{\\sqrt{10}}{10}$",
+   "$\\frac{\\sqrt{10}}{5}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q5",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 5
+  },
+  "subject": "미적분I",
+  "unit": "함수의 극한과 연속",
+  "standards": [
+   "[12미적Ⅰ-01-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "그래프와 극한",
+   "좌극한과 우극한"
+  ],
+  "stem": "함수 $y=f(x)$의 그래프가 그림과 같다.\n$\\lim_{x\\to -1}f(x)+\\lim_{x\\to 1-}f(x)$의 값은?",
+  "figure": "images/edu-2024-09-g2-q5-fig.png",
+  "figureWidthMm": 98,
+  "choices": [
+   "$-2$",
+   "$-1$",
+   "0",
+   "1",
+   "2"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q6",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 6
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-04]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "로그의 성질",
+   "밑의 변환"
+  ],
+  "stem": "$\\log_2 5\\times\\log_5 3+\\log_2\\frac{16}{3}$의 값은?",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q7",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 7
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "호도법",
+   "부채꼴의 호의 길이와 넓이"
+  ],
+  "stem": "중심각의 크기가 $\\frac{\\pi}{4}$이고 넓이가 $18\\pi$인 부채꼴의 호의 길이는?",
+  "choices": [
+   "$2\\pi$",
+   "$3\\pi$",
+   "$4\\pi$",
+   "$5\\pi$",
+   "$6\\pi$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q8",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 8
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "삼각방정식",
+   "삼각함수 사이의 관계"
+  ],
+  "stem": "$0<x\\le 2\\pi$일 때, 방정식\n$\\cos^2 x-1=2\\sin x$\n의 모든 해의 합은?",
+  "choices": [
+   "$\\frac{3}{2}\\pi$",
+   "$2\\pi$",
+   "$\\frac{5}{2}\\pi$",
+   "$3\\pi$",
+   "$\\frac{7}{2}\\pi$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q9",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 9
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-07]",
+   "[12대수01-08]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "로그함수의 그래프",
+   "로그함수의 최대·최소"
+  ],
+  "stem": "집합 $\\{x\\,|\\,-3\\le x\\le 3\\}$에서 정의된 함수\n$y=\\log_{\\frac{1}{3}}(x+m)$\n이 최댓값 $-2$를 가질 때, 상수 $m$의 값은?",
+  "choices": [
+   "11",
+   "12",
+   "13",
+   "14",
+   "15"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q10",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 10
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-03]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "등비수열의 합",
+   "등비수열의 일반항"
+  ],
+  "stem": "공비가 양수인 등비수열 $\\{a_n\\}$의 첫째항부터 제 $n$ 항까지의 합을 $S_n$이라 하자.\n$a_2=2,\\,S_6=9S_3$\n일 때, $a_4$의 값은?",
+  "choices": [
+   "6",
+   "8",
+   "10",
+   "12",
+   "14"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q11",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 11
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-08]",
+   "[12대수01-07]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "지수부등식",
+   "로그부등식"
+  ],
+  "stem": "$x$에 대한 연립부등식\n$\\begin{cases}4^x-2^x-2<0\\\\ \\log_a x+1>0\\end{cases}$\n을 만족시키는 모든 $x$의 값의 범위가 $\\frac{1}{5}<x<b$일 때, 두 상수 $a$, $b$에 대하여 $a+b$의 값은? (단, $a>1$)",
+  "choices": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q12",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 12
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "탄젠트함수의 그래프",
+   "탄젠트함수의 주기",
+   "평행이동"
+  ],
+  "stem": "함수 $f(x)=a\\tan\\frac{\\pi}{4}x$에 대하여 함수 $y=f(x)$의 그래프 위의 점 A$(3,\\,-2)$를 $x$축의 방향으로 6만큼, $y$축의 방향으로 $b$만큼 평행이동한 점을 A$'$이라 하자. 점 A$'$이 함수 $y=f(x)$의 그래프 위의 점일 때, $a+b$의 값은? (단, $a$, $b$는 상수이다.)",
+  "choices": [
+   "4",
+   "6",
+   "8",
+   "10",
+   "12"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q13",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 13
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-03]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "등비수열의 일반항",
+   "공비의 부호"
+  ],
+  "stem": "첫째항이 음수인 등비수열 $\\{a_n\\}$에 대하여\n$a_3a_5=8a_8,\\,a_1+|a_2|+|2a_3|=0$\n일 때, $a_2$의 값은?",
+  "choices": [
+   "$-1$",
+   "$-\\frac{1}{2}$",
+   "$\\frac{1}{2}$",
+   "1",
+   "2"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q14",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 14
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-01]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "거듭제곱근",
+   "실수인 n제곱근의 개수"
+  ],
+  "stem": "$2\\le n\\le 10$인 자연수 $n$에 대하여\n$n^2+1$의 $n$ 제곱근 중 실수인 것의 개수를 $f(n)$,\n$n^2-8n+12$의 $n$ 제곱근 중 실수인 것의 개수를 $g(n)$\n이라 하자. $f(n)=2g(n)$을 만족시키는 모든 자연수 $n$의 값의 합은?",
+  "choices": [
+   "6",
+   "7",
+   "8",
+   "9",
+   "10"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q15",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 9,
+   "no": 15
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-08]",
+   "[12대수01-07]",
+   "[10공수1-02-06]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "지수함수의 최대·최소",
+   "치환과 이차함수"
+  ],
+  "stem": "함수 $f(x)=4^{x-a}-8\\times 2^{x-a}$가 $x=5$에서 최솟값 $b$를 가질 때, $a+b$의 값은? (단, $a$는 상수이다.)",
+  "choices": [
+   "$-13$",
+   "$-11$",
+   "$-9$",
+   "$-7$",
+   "$-5$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q16",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 16
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-05]",
+   "[12대수01-04]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "상용로그",
+   "로그의 성질",
+   "부등식을 만족하는 순서쌍 세기"
+  ],
+  "stem": "다음 조건을 만족시키는 두 자연수 $a$, $b$의 모든 순서쌍 $(a,\\,b)$의 개수는?\n(가) $0<\\log b-\\log a<1$\n(나) $2a+\\log b<9$",
+  "choices": [
+   "56",
+   "58",
+   "60",
+   "62",
+   "64"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q17",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 17
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-04]",
+   "[12대수03-01]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "∑의 성질",
+   "홀수항·짝수항의 합"
+  ],
+  "stem": "수열 $\\{a_n\\}$이 다음 조건을 만족시킨다.\n(가) $a_{12}-a_{10}=5$\n(나) 모든 자연수 $n$에 대하여\n$\\sum_{k=1}^{n}a_{2k}=\\sum_{k=1}^{n}a_{2k-1}+n^2$ 이다.\n$a_9=16$일 때, $a_{11}$의 값은?",
+  "choices": [
+   "17",
+   "18",
+   "19",
+   "20",
+   "21"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q18",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 18
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-07]",
+   "[12대수01-08]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "지수함수의 그래프",
+   "로그함수의 그래프",
+   "닫힌구간에서 최댓값·최솟값"
+  ],
+  "stem": "함수\n$f(x)=\\begin{cases}-2^x+2 & (x<1)\\\\ \\log_2 x & (x\\geq 1)\\end{cases}$\n에 대하여 $a-1\\leq x\\leq a+1$에서 함수 $f(x)$의 최댓값과 최솟값의 차가 $1$이 되도록 하는 모든 실수 $a$의 값의 합은?",
+  "choices": [
+   "$3$",
+   "$\\log_2\\frac{32}{3}$",
+   "$\\log_2\\frac{40}{3}$",
+   "$4$",
+   "$\\log_2\\frac{56}{3}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q19",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 19
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-02]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "사인함수의 그래프",
+   "그래프의 대칭성",
+   "정삼각형의 높이"
+  ],
+  "stem": "함수 $f(x)=3\\sin\\frac{\\pi}{2}x (0\\leq x\\leq 7)$과 실수 $t (0<t<3)$에 대하여 한 변의 길이가 $4$인 정삼각형 ABC의 세 꼭짓점 A, B, C가 다음 조건을 만족시킬 때, $t$의 값은?\n(가) 두 점 A, B는 곡선 $y=f(x)$와 직선 $y=-t$가 만나는 점이다.\n(나) 점 C는 곡선 $y=f(x)$ 위의 점이다.",
+  "choices": [
+   "$\\frac{\\sqrt{3}}{2}$",
+   "$\\frac{3\\sqrt{3}}{4}$",
+   "$\\sqrt{3}$",
+   "$\\frac{5\\sqrt{3}}{4}$",
+   "$\\frac{3\\sqrt{3}}{2}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q20",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 20
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-07]",
+   "[12대수01-08]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "지수함수와 로그함수의 그래프",
+   "그래프의 평행이동과 대칭",
+   "두 점 사이의 거리"
+  ],
+  "stem": "상수 $k (k>3)$에 대하여 직선 $y=-x+2k$가 두 함수\n$f(x)=\\log_2(x-k),\\,\\, g(x)=2^{x+1}+k+1$\n의 그래프와 만나는 점을 각각 A, B라 하자. $\\overline{\\mathrm{AB}}=7\\sqrt{2}$일 때, $k$의 값은?",
+  "figure": "images/edu-2024-09-g2-q20-fig.png",
+  "figureWidthMm": 83,
+  "choices": [
+   "$\\log_2 21$",
+   "$\\log_2 22$",
+   "$\\log_2 23$",
+   "$\\log_2 24$",
+   "$\\log_2 25$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q21",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 21
+  },
+  "subject": "미적분I",
+  "unit": "함수의 극한과 연속",
+  "standards": [
+   "[12미적Ⅰ-01-01]",
+   "[12대수01-07]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "좌극한과 우극한",
+   "지수함수의 그래프",
+   "방정식의 실근의 개수"
+  ],
+  "stem": "두 실수 $a$, $b$에 대하여 함수 $f(x)$는\n$f(x)=\\begin{cases}2^{x+a} & (x\\leq 0)\\\\ (x+b)^2 & (x>0)\\end{cases}$\n이다. 실수 $t$에 대하여 $x$에 대한 방정식 $f(x)=t$의 서로 다른 실근의 개수를 $g(t)$라 할 때, 함수 $g(t)$는 다음 조건을 만족시킨다.\n$\\lim_{t\\to k-}g(t)\\neq\\lim_{t\\to k+}g(t)$와 $\\lim_{t\\to 2k-}g(t)\\neq\\lim_{t\\to 2k+}g(t)$를 모두 만족시키는 양수 $k$가 존재한다.\n$\\lim_{t\\to 16-}g(t)\\times\\lim_{t\\to 16+}g(t)=2$가 되도록 하는 두 실수 $a$, $b$의 순서쌍 $(a,\\,b)$에 대하여 $a+b$의 최댓값과 최솟값의 곱은?",
+  "choices": [
+   "$-11$",
+   "$-10$",
+   "$-9$",
+   "$-8$",
+   "$-7$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q22",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 22
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-08]",
+   "[12대수01-03]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 2,
+  "concepts": [
+   "지수방정식",
+   "지수법칙"
+  ],
+  "stem": "방정식 $3^{2x-1}=27$을 만족시키는 실수 $x$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q23",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 23
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 12,
+  "concepts": [
+   "등차수열",
+   "등차중항"
+  ],
+  "stem": "등차수열 $\\{a_n\\}$에 대하여 $a_3+a_5+a_7=18$일 때, $a_4+a_6$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q24",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 24
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-04]",
+   "[12대수03-05]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 385,
+  "concepts": [
+   "∑의 성질",
+   "자연수의 거듭제곱의 합"
+  ],
+  "stem": "수열 $\\{a_n\\}$이 모든 자연수 $n$에 대하여\n$a_n=\\begin{cases}n^2-1 & (n\\text{이 홀수인 경우})\\\\ n^2+1 & (n\\text{이 짝수인 경우})\\end{cases}$\n를 만족시킬 때, $\\sum_{k=1}^{10}a_k$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q25",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 25
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 20,
+  "concepts": [
+   "삼각함수의 그래프",
+   "삼각부등식"
+  ],
+  "stem": "$0<x\\leq 10$일 때, 부등식\n$\\cos\\frac{\\pi}{5}x<\\sin\\frac{\\pi}{5}x$\n를 만족시키는 모든 자연수 $x$의 값의 합을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q26",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 26
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-04]",
+   "[12대수01-05]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 36,
+  "concepts": [
+   "로그의 성질",
+   "상용로그",
+   "밑의 변환"
+  ],
+  "stem": "$10<a<100$인 실수 $a$에 대하여 수직선 위의 서로 다른 네 점 $\\mathrm{P}(p)$, $\\mathrm{Q}(q)$, $\\mathrm{R}(r)$, $\\mathrm{S}(s)$가 다음 조건을 만족시킨다.\n(가) $p<q<r<s$\n(나) 두 집합\n$A=\\{p,\\,q,\\,r,\\,s\\}$,\n$B=\\left\\{\\log 10a,\\, \\log\\frac{10}{a},\\, \\log_a 10a,\\, \\log_a\\frac{a}{10}\\right\\}$\n에 대하여 $A=B$이다.\n$\\overline{\\mathrm{PS}}=\\frac{10}{3}$일 때, $30\\times\\overline{\\mathrm{QR}}$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q27",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 27
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-03]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 271,
+  "concepts": [
+   "코사인법칙",
+   "사인법칙",
+   "외접원의 반지름"
+  ],
+  "stem": "그림과 같이 둘레의 길이가 $20$이고 $\\cos(\\angle\\mathrm{ABC})=\\frac{1}{4}$인 평행사변형 ABCD가 있다. 삼각형 ABC의 외접원의 넓이가 $\\frac{32}{3}\\pi$일 때, 삼각형 ABD의 외접원의 넓이는 $\\frac{q}{p}\\pi$이다. $p+q$의 값을 구하시오.\n(단, $\\overline{\\mathrm{AB}}<\\overline{\\mathrm{AD}}$이고, $p$와 $q$는 서로소인 자연수이다.)",
+  "figure": "images/edu-2024-09-g2-q27-fig.png",
+  "figureWidthMm": 86,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q28",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 28
+  },
+  "subject": "미적분I",
+  "unit": "함수의 극한과 연속",
+  "standards": [
+   "[12미적Ⅰ-01-02]",
+   "[12미적Ⅰ-01-01]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 40,
+  "concepts": [
+   "좌극한과 우극한",
+   "함수의 극한의 성질",
+   "이차함수"
+  ],
+  "stem": "최고차항의 계수가 양수인 이차함수 $f(x)$가 다음 조건을 만족시킨다.\n(가) $\\lim_{x\\to 0-}\\frac{\\sqrt{x^2}-f(x)}{x+f(x)}\\times\\lim_{x\\to 0+}\\frac{\\sqrt{x^2}-f(x)}{x+f(x)}=-2$\n(나) $\\lim_{x\\to a}\\frac{f(x-4)f(x+1)}{\\sqrt{x^2}-3}$의 값이 <u>존재하지 않는</u> 실수 $a$의 개수는 $1$이다.\n$f(24)$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q29",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 29
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-02]",
+   "[12대수03-02]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 11,
+  "concepts": [
+   "사인함수의 그래프",
+   "절댓값 함수의 그래프",
+   "등차수열"
+  ],
+  "stem": "자연수 $p$와 실수 $q (q\\geq 0)$에 대하여 함수 $f(x)$는\n$f(x)=|p\\sin x-q|$\n이다. $f(a)=q$인 서로 다른 모든 양수 $a$를 작은 수부터 크기순으로 나열할 때, $n$번째 수를 $a_n$이라 하자. 수열 $\\{a_n\\}$과 함수 $f(x)$가 다음 조건을 만족시킨다.\n(가) 세 항 $a_1$, $a_4$, $a_7$은 이 순서대로 등차수열을 이룬다.\n(나) 함수 $f(x)$의 최댓값은 $15$이다.\n두 수 $p$, $q$의 모든 순서쌍 $(p,\\,q)$의 개수를 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-09-g2-q30",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "month": 9,
+   "grade": "고2",
+   "no": 30
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-06]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 28,
+  "concepts": [
+   "수열의 귀납적 정의",
+   "조건에 맞는 경우 나누기"
+  ],
+  "stem": "첫째항이 정수인 수열 $\\{a_n\\}$이 두 정수 $d$, $r$에 대하여 다음 조건을 만족시킨다.\n(가) 모든 자연수 $n$에 대하여\n$a_{n+1}=\\begin{cases}a_n+d & (a_n\\geq 0)\\\\ ra_n & (a_n<0)\\end{cases}$\n이다.\n(나) $a_k=a_{k+12}=0$인 자연수 $k$가 존재한다.\n$a_2+a_3=0$, $a_5=16$이 되도록 하는 모든 $a_1$의 값의 합을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q1",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 1
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-03]",
+   "[12대수01-01]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "거듭제곱근",
+   "지수법칙"
+  ],
+  "stem": "$\\left(\\sqrt[3]{4}\\right)^{2}\\times 2^{\\frac{2}{3}}$의 값은?",
+  "choices": [
+   "1",
+   "2",
+   "4",
+   "8",
+   "16"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q2",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 2
+  },
+  "subject": "미적분I",
+  "unit": "미분",
+  "standards": [
+   "[12미적Ⅰ-02-01]",
+   "[12미적Ⅰ-01-02]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "미분계수의 정의",
+   "함수의 극한값 계산"
+  ],
+  "stem": "다항함수 $f(x)$가 $\\lim_{x\\to 2}\\frac{f(x)-f(2)}{x^{2}-4}=3$을 만족시킬 때, $f'(2)$의 값은?",
+  "choices": [
+   "8",
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q3",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 3
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-02]"
+  ],
+  "points": 2,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "코사인함수의 주기"
+  ],
+  "stem": "함수 $y=\\cos\\frac{\\pi}{4}x$의 주기는?",
+  "choices": [
+   "2",
+   "4",
+   "6",
+   "8",
+   "10"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q4",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 4
+  },
+  "subject": "미적분I",
+  "unit": "함수의 극한과 연속",
+  "standards": [
+   "[12미적Ⅰ-01-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "좌극한과 우극한",
+   "그래프에서 극한 읽기"
+  ],
+  "stem": "함수 $y=f(x)$의 그래프가 그림과 같다.\n$\\lim_{x\\to -1-}f(x)+\\lim_{x\\to 0+}f(x)$의 값은?",
+  "figure": "images/edu-2024-10-g2-q4-fig.png",
+  "figureWidthMm": 80,
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q5",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 5
+  },
+  "subject": "미적분I",
+  "unit": "함수의 극한과 연속",
+  "standards": [
+   "[12미적Ⅰ-01-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "함수의 극한의 대소 관계",
+   "∞에서의 극한"
+  ],
+  "stem": "함수 $f(x)$가 $x>\\frac{1}{2}$인 모든 실수 $x$에 대하여\n$\\frac{3}{2x+1}<f(x)<\\frac{3}{2x-1}$\n을 만족시킬 때, $\\lim_{x\\to\\infty}xf(x)$의 값은?",
+  "choices": [
+   "$\\frac{3}{2}$",
+   "2",
+   "$\\frac{5}{2}$",
+   "3",
+   "$\\frac{7}{2}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q6",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 6
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "등차수열의 일반항"
+  ],
+  "stem": "첫째항이 양수이고 공차가 3인 등차수열 $\\{a_n\\}$에 대하여\n$a_2\\times a_4=72$\n일 때, $a_3$의 값은?",
+  "choices": [
+   "7",
+   "9",
+   "11",
+   "13",
+   "15"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q7",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 7
+  },
+  "subject": "미적분I",
+  "unit": "미분",
+  "standards": [
+   "[12미적Ⅰ-02-02]",
+   "[12미적Ⅰ-01-03]",
+   "[12미적Ⅰ-02-04]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "미분가능성과 연속성",
+   "구간별로 정의된 함수"
+  ],
+  "stem": "함수\n$f(x)=\\begin{cases}x-a & (x\\le 2)\\\\x^{2}+bx+a & (x>2)\\end{cases}$\n가 $x=2$에서 미분가능할 때, $f(2)$의 값은? (단, $a$와 $b$는 상수이다.)",
+  "choices": [
+   "$-2$",
+   "$-1$",
+   "0",
+   "1",
+   "2"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q8",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 8
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-01]",
+   "[12대수03-04]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "수열의 합과 일반항의 관계"
+  ],
+  "stem": "수열 $\\{a_n\\}$의 첫째항부터 제$n$항까지의 합을 $S_n$이라 하자.\n$S_n=\\frac{1}{n+1}$일 때, $a_1+a_5$의 값은?",
+  "choices": [
+   "$\\frac{1}{5}$",
+   "$\\frac{4}{15}$",
+   "$\\frac{1}{3}$",
+   "$\\frac{2}{5}$",
+   "$\\frac{7}{15}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q9",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 9
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-08]",
+   "[12대수01-07]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "로그함수의 최대·최소",
+   "로그함수의 증가"
+  ],
+  "stem": "$0<a<5$인 실수 $a$에 대하여 함수 $f(x)=\\log_{2}(x+a)+1$은 닫힌구간 $[a,\\,5]$에서 최솟값 3을 갖는다. $f(a+4)$의 값은?",
+  "choices": [
+   "4",
+   "$2+\\log_{2}5$",
+   "$3+\\log_{2}3$",
+   "$2+\\log_{2}7$",
+   "5"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q10",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 10
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-03]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "등비수열의 일반항",
+   "등비수열의 합"
+  ],
+  "stem": "공비가 0이 아닌 등비수열 $\\{a_n\\}$에 대하여\n$a_3+2a_4=0, \\sum_{k=1}^{5}a_k=33$\n일 때, $a_1$의 값은?",
+  "choices": [
+   "40",
+   "44",
+   "48",
+   "52",
+   "56"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q11",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 11
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "삼각함수의 성질",
+   "삼각함수 사이의 관계"
+  ],
+  "stem": "$\\cos\\left(\\frac{3}{2}\\pi-\\theta\\right)\\times\\tan\\theta=\\frac{8}{3}$일 때, $\\cos\\theta$의 값은?",
+  "choices": [
+   "$-\\frac{2}{3}$",
+   "$-\\frac{1}{3}$",
+   "0",
+   "$\\frac{1}{3}$",
+   "$\\frac{2}{3}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q12",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 12
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-04]",
+   "[12대수03-06]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "합의 기호 Σ",
+   "수열의 귀납적 정의"
+  ],
+  "stem": "수열 $\\{a_n\\}$이 모든 자연수 $n$에 대하여\n$a_{2n}=\\sum_{k=1}^{2n-1}\\left(k-a_k\\right)$\n를 만족시킬 때, $\\sum_{k=1}^{10}a_k$의 값은?",
+  "choices": [
+   "45",
+   "48",
+   "51",
+   "54",
+   "57"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q13",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 13
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-01]",
+   "[12대수02-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "일반각과 동경",
+   "삼각함수의 정의"
+  ],
+  "stem": "좌표평면에서 직선 $y=x+1$ 위의 $x$좌표가 양수인 점 P에 대하여 동경 OP가 나타내는 각의 크기를 $\\theta (0<\\theta<2\\pi)$라 하자. 각의 크기 $\\theta$를 나타내는 동경과 각의 크기 $7\\theta$를 나타내는 동경이 일치할 때, 점 P의 $x$좌표는?\n(단, O는 원점이고, $x$축의 양의 방향을 시초선으로 한다.)",
+  "choices": [
+   "$\\frac{\\sqrt{3}-1}{2}$",
+   "$\\frac{2\\sqrt{3}-1}{4}$",
+   "$\\frac{\\sqrt{3}}{2}$",
+   "$\\frac{2\\sqrt{3}+1}{4}$",
+   "$\\frac{\\sqrt{3}+1}{2}$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q14",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 14
+  },
+  "subject": "미적분I",
+  "unit": "함수의 극한과 연속",
+  "standards": [
+   "[12미적Ⅰ-01-03]",
+   "[12미적Ⅰ-01-02]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "함수의 연속",
+   "분모의 유리화와 극한",
+   "미정계수 결정"
+  ],
+  "stem": "실수 전체의 집합에서 연속인 함수 $f(x)$가 다음 조건을 만족시킬 때, $f(0)$의 값은?\n(가) $x\\ge -\\frac{1}{2}$인 모든 실수 $x$에 대하여\n$\\left(\\sqrt{2x+1}-1\\right)\\times f(x)=x^{2}+ax+b$\n이다. (단, $a$와 $b$는 상수이다.)\n(나) $f(4)=2$",
+  "choices": [
+   "$-7$",
+   "$-3$",
+   "1",
+   "5",
+   "9"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q15",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 15
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-01]",
+   "[12대수02-02]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 5,
+  "concepts": [
+   "거듭제곱근의 개수",
+   "사인함수의 값의 부호"
+  ],
+  "stem": "자연수 $n (n\\ge 2)$에 대하여 $\\sin\\frac{n}{5}\\pi$의 $n$제곱근 중 실수인 것의 개수를 $f(n)$이라 할 때, $\\sum_{n=2}^{10}f(n)$의 값은?",
+  "choices": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q16",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 16
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-04]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "로그의 성질",
+   "밑변환 공식",
+   "정수 조건 최댓값"
+  ],
+  "stem": "$1$보다 크고 $100$보다 작은 두 자연수 $m$, $n$이\n$\\log_{n}4\\times\\left(\\frac{4}{\\log_{m}2}+\\log_{2}n\\right)=8$\n을 만족시킬 때, $m+n$의 최댓값은?",
+  "choices": [
+   "96",
+   "100",
+   "104",
+   "108",
+   "112"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q17",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 17
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-02]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 1,
+  "concepts": [
+   "삼각함수의 성질",
+   "삼각함수가 포함된 함수의 최대·최소"
+  ],
+  "stem": "$a>\\pi$인 실수 $a$에 대하여 함수\n$f(x)=\\cos^{2}x-\\sin x-1$\n이 구간 $(\\pi,\\,a]$에서 최솟값을 갖도록 하는 $a$의 최솟값을 $p$라 하자. 구간 $(\\pi,\\,p]$에서 함수 $f(x)$의 최댓값을 $M$이라 할 때, $p\\times M$의 값은?",
+  "choices": [
+   "$\\frac{3}{8}\\pi$",
+   "$\\frac{\\pi}{2}$",
+   "$\\frac{5}{8}\\pi$",
+   "$\\frac{3}{4}\\pi$",
+   "$\\frac{7}{8}\\pi$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q18",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 18
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-07]",
+   "[12대수01-08]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 2,
+  "concepts": [
+   "지수함수와 로그함수의 그래프",
+   "역함수 관계와 평행이동",
+   "선분의 길이 조건"
+  ],
+  "stem": "그림과 같이 $1$보다 큰 두 실수 $a$, $k$에 대하여 곡선 $y=a^{x}+k$와 직선 $y=3x+2$가 서로 다른 두 점 A, B에서 만난다. 점 B를 지나고 기울기가 $-1$인 직선이 곡선 $y=\\log_{a}(x-k)$와 만나는 점을 C, 직선 $y=3x+2$가 $y$축과 만나는 점을 D라 하자. $\\overline{AB}=\\overline{AD}$이고 $\\overline{BC}=\\overline{CD}$일 때, $a\\times k$의 값은? (단, 점 B의 $x$좌표는 점 A의 $x$좌표보다 크다.)",
+  "choices": [
+   "$4\\sqrt{2}$",
+   "$5\\sqrt{3}$",
+   "$12$",
+   "$7\\sqrt{5}$",
+   "$8\\sqrt{6}$"
+  ],
+  "figure": "images/edu-2024-10-g2-q18-fig.png",
+  "figureWidthMm": 97,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q19",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 19
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-03]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "코사인법칙",
+   "사인법칙",
+   "원주각과 호"
+  ],
+  "stem": "그림과 같이 $\\overline{AB}=2$, $\\overline{BC}=4$인 삼각형 ABC가 있다. 선분 AC 위의 점 D에 대하여 세 점 A, B, D를 지나는 원을 $C$라 하고, 원 $C$가 선분 BC와 만나는 점 중 B가 아닌 점을 E라 하자. 점 B를 포함하지 않는 두 호 AD, DE의 길이가 같고 $\\overline{BD}=\\sqrt{6}$일 때, 원 $C$의 넓이는? (단, $\\overline{AC}<\\overline{BC}$이고, 점 D는 점 A도 아니고 점 C도 아니다.)",
+  "choices": [
+   "$\\frac{6}{5}\\pi$",
+   "$\\frac{7}{5}\\pi$",
+   "$\\frac{8}{5}\\pi$",
+   "$\\frac{9}{5}\\pi$",
+   "$2\\pi$"
+  ],
+  "figure": "images/edu-2024-10-g2-q19-fig.png",
+  "figureWidthMm": 91,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q20",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 20
+  },
+  "subject": "미적분I",
+  "unit": "미분",
+  "standards": [
+   "[12미적Ⅰ-02-01]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 4,
+  "concepts": [
+   "평균변화율",
+   "구간별로 정의된 함수"
+  ],
+  "stem": "실수 $a$에 대하여 함수 $f(x)$를\n$f(x)=\\begin{cases}(x-1)(x-a) & (x<1)\\\\ 0 & (1\\leq x<2)\\\\ 1 & (x\\geq 2)\\end{cases}$\n라 하자. 양의 실수 $t$에 대하여 함수 $f(x)$에서 $x$의 값이 $0$에서 $t$까지 변할 때의 평균변화율을 $g(t)$라 할 때, <보기>에서 옳은 것만을 있는 대로 고른 것은?\n<보기>\nㄱ. $a=1$일 때, $g(1)=-1$이다.\nㄴ. 함수 $g(t)$의 최댓값이 $1$일 때, $g(2)=\\frac{1}{2}$이다.\nㄷ. $g(k)=g(k+1)=g(k+2)$를 만족시키는 $0<k<2$인 실수 $k$가 존재할 때, 함수 $y=f(x)$의 그래프와 직선 $y=-\\frac{3}{2}$은 서로 다른 두 점에서 만난다.",
+  "choices": [
+   "ㄱ",
+   "ㄴ",
+   "ㄱ, ㄴ",
+   "ㄱ, ㄷ",
+   "ㄴ, ㄷ"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q21",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 21
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-06]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "선택형",
+  "answer": 3,
+  "concepts": [
+   "수열의 귀납적 정의",
+   "역추적"
+  ],
+  "stem": "첫째항이 $2$ 이상인 수열 $\\{a_{n}\\}$이 모든 자연수 $n$에 대하여\n$a_{n+1}=\\begin{cases}\\frac{1}{2}a_{n} & (a_{n}\\geq 1)\\\\ \\frac{1}{2}(a_{n}+a_{1}) & (a_{n}<1)\\end{cases}$\n을 만족시킬 때, $a_{5}+2a_{6}=2$가 되도록 하는 모든 $a_{1}$의 값의 합은?",
+  "choices": [
+   "$\\frac{92}{5}$",
+   "$\\frac{94}{5}$",
+   "$\\frac{96}{5}$",
+   "$\\frac{98}{5}$",
+   "$20$"
+  ],
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q22",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 22
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-03]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 8,
+  "concepts": [
+   "지수법칙",
+   "지수방정식"
+  ],
+  "stem": "방정식 $(\\sqrt{3})^{x-2}=27$을 만족시키는 실수 $x$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q23",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 23
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-01]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 7,
+  "concepts": [
+   "호도법",
+   "부채꼴의 호의 길이와 넓이"
+  ],
+  "stem": "반지름의 길이가 $8$이고 넓이가 $28\\pi$인 부채꼴의 호의 길이가 $a\\pi$일 때, $a$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q24",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 24
+  },
+  "subject": "미적분I",
+  "unit": "함수의 극한과 연속",
+  "standards": [
+   "[12미적Ⅰ-01-02]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 34,
+  "concepts": [
+   "함수의 극한",
+   "다항함수의 결정"
+  ],
+  "stem": "다항함수 $f(x)$에 대하여\n$\\lim_{x\\to\\infty}\\frac{f(x)-2x^{3}}{x^{2}}=\\lim_{x\\to 0}\\frac{f(x)}{x}=3$\n일 때, $f(2)$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q25",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 25
+  },
+  "subject": "대수",
+  "unit": "지수함수와 로그함수",
+  "standards": [
+   "[12대수01-04]",
+   "[10공수1-02-11]"
+  ],
+  "points": 3,
+  "rate": null,
+  "type": "단답형",
+  "answer": 6,
+  "concepts": [
+   "로그의 정의(밑과 진수 조건)",
+   "이차부등식"
+  ],
+  "stem": "$\\log_{|a|}(-a^{2}-4a+21)$이 정의되도록 하는 정수 $a$의 개수를 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q26",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 26
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-05]",
+   "[12대수03-04]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 385,
+  "concepts": [
+   "합의 기호 ∑",
+   "망원급수",
+   "자연수의 거듭제곱의 합"
+  ],
+  "stem": "첫째항이 $1$이고 모든 항이 양수인 수열 $\\{a_{n}\\}$이 $n\\geq 2$인 모든 자연수 $n$에 대하여\n$\\sum_{k=1}^{n-1}\\left(\\sqrt{a_{k}}-\\sqrt{a_{k+1}}\\right)=\\frac{n-1}{n}$\n을 만족시킬 때, $\\sum_{k=1}^{10}\\frac{1}{a_{k}}$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q27",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 27
+  },
+  "subject": "미적분I",
+  "unit": "함수의 극한과 연속",
+  "standards": [
+   "[12미적Ⅰ-01-02]",
+   "[10공수2-03-04]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 54,
+  "concepts": [
+   "함수의 극한",
+   "유리함수와 직선의 교점",
+   "두 점 사이의 거리"
+  ],
+  "stem": "실수 $t$ $(t>1)$에 대하여 곡선 $y=\\frac{2t}{x}$와 직선 $y=-\\frac{1}{t}x+3$이 만나는 두 점을 A, B라 하자. $\\lim_{t\\to 1+}\\frac{\\overline{OB}-\\overline{OA}}{t-1}=k$라 할 때, $30\\times k^{2}$의 값을 구하시오. (단, O는 원점이고, 점 B의 $x$좌표는 점 A의 $x$좌표보다 크다.)",
+  "figure": "images/edu-2024-10-g2-q27-fig.png",
+  "figureWidthMm": 107,
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q28",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 28
+  },
+  "subject": "대수",
+  "unit": "수열",
+  "standards": [
+   "[12대수03-02]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 22,
+  "concepts": [
+   "등차수열의 일반항",
+   "등차수열의 합"
+  ],
+  "stem": "공차가 자연수인 등차수열 $\\{a_{n}\\}$의 첫째항부터 제$n$항까지의 합을 $S_{n}$이라 하자. 어떤 자연수 $k$에 대하여\n$a_{k}+a_{k+1}+a_{k+2}=21$, $S_{k+4}=11$\n이 성립할 때, $a_{k+6}$의 값을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q29",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 29
+  },
+  "subject": "대수",
+  "unit": "삼각함수",
+  "standards": [
+   "[12대수02-02]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 48,
+  "concepts": [
+   "사인함수의 그래프",
+   "삼각방정식의 해의 개수"
+  ],
+  "stem": "$0\\leq x\\leq 2\\pi$일 때, $x$에 대한 방정식\n$\\left(\\sin x-\\frac{1}{4}k\\right)\\left(\\sin x+\\frac{1}{4}k^{2}-\\frac{3}{4}k\\right)=0$\n의 서로 다른 해의 개수가 $2$가 되도록 하는 모든 정수 $k$의 값의 곱을 구하시오.",
+  "outOfCurriculum": false
+ },
+ {
+  "id": "edu-2024-10-g2-q30",
+  "area": "math",
+  "src": {
+   "org": "edu",
+   "year": 2024,
+   "grade": "고2",
+   "month": 10,
+   "no": 30
+  },
+  "subject": "미적분I",
+  "unit": "함수의 극한과 연속",
+  "standards": [
+   "[12미적Ⅰ-01-03]",
+   "[12미적Ⅰ-01-04]",
+   "[10공수2-03-04]"
+  ],
+  "points": 4,
+  "rate": null,
+  "type": "단답형",
+  "answer": 75,
+  "concepts": [
+   "함수의 연속",
+   "유리함수의 그래프",
+   "교점의 개수 함수의 불연속"
+  ],
+  "stem": "두 양수 $a$, $b$와 최고차항의 계수가 $1$인 이차함수 $f(x)$에 대하여 집합 $\\{x\\,|\\,x\\neq -a,\\,x\\text{는 실수}\\}$에서 정의된 함수 $g(x)$를\n$g(x)=\\begin{cases}\\frac{bx}{x+a} & (x<-a,\\,-a<x<1)\\\\ f(x) & (x\\geq 1)\\end{cases}$\n이라 할 때, 함수 $g(x)$는 $x=1$에서 연속이다. 실수 $t$에 대하여 함수 $y=|g(x)|$의 그래프와 직선 $y=t$가 만나는 점의 개수를 $h(t)$라 할 때, 함수 $h(t)$가 다음 조건을 만족시킨다.\n(가) 임의의 두 양수 $t_{1}$, $t_{2}$에 대하여 $t_{1}<t_{2}$이면 $h(t_{1})\\geq h(t_{2})$이다.\n(나) 함수 $h(t)$는 $t=0$, $t=\\alpha$, $t=\\beta$ $(0<\\alpha<\\beta)$에서만 불연속이며 $h(0)=\\alpha$, $h(\\alpha)=\\beta-1$이다.\n$f(a-b)$의 값을 구하시오.",
+  "outOfCurriculum": false
  }
 ]
