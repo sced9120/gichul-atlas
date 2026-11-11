@@ -269,8 +269,9 @@
    "subject": null,
    "curriculum": "2015",
    "count": 30,
-   "status": "todo",
-   "next_no": 1
+   "status": "done",
+   "next_no": 31,
+   "finished_at": "2026-11-12"
   },
   {
    "id": "edu-2025-06-g2",
@@ -284,7 +285,7 @@
    "subject": null,
    "curriculum": "2015",
    "count": 30,
-   "status": "todo",
+   "status": "doing",
    "next_no": 1
   },
   {
@@ -299,7 +300,7 @@
    "subject": null,
    "curriculum": "2015",
    "count": 30,
-   "status": "todo",
+   "status": "doing",
    "next_no": 1
   },
   {
@@ -314,7 +315,7 @@
    "subject": null,
    "curriculum": "2015",
    "count": 30,
-   "status": "todo",
+   "status": "doing",
    "next_no": 1
   },
   {
