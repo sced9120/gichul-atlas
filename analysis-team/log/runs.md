@@ -29,3 +29,4 @@
 - 2026-11-12T04:30+09:00 · edu-2025-03-g2 1–30 · 추가 29 · 확인 필요 1 (q20 '⊄' 를 수식 안에 넣을 수 없음 — 변환기가 \\not·\\nsubset·유니코드 ⊄ 거부, 엔진 지원 여부 결정 필요) · 참고: q18 객실 배치 그림 유지(배치 정보가 그림에만 있음), q26 외분점 OOC true · 수준: 전사 sonnet-low→sonnet-medium(q20), 정답·출처 haiku, 분류 opus-low→opus-medium(q8 보조 코드), 오르빗 opus-low(2회)
 - 2026-11-12T04:30+09:00 · edu-2025-06-g2 1–30 · 추가 30 · 확인 필요 0 (참고: A3 원본이라 그림 폭 64–98mm) · 수준: 전사 sonnet-low→sonnet-medium(q5 상용로그표 …·⋮ 칸), 정답·출처 haiku, 분류 opus-low, 오르빗 opus-low(2회)
 - 2026-11-12T04:30+09:00 · edu-2025-09-g2 1–30 · 추가 30 · 확인 필요 0 · 수준: 전사 sonnet-low, 정답·출처 haiku, 분류 opus-low, 오르빗 opus-low(1회)
+- 2026-11-12T04:30+09:00 · edu-2025-10-g2 1–30 · 추가 30 · 확인 필요 0 (참고: q30 보조 코드 [12미적Ⅰ-02-01] 꼭 필요하진 않음) · 수준: 전사 sonnet-low, 정답·출처 haiku, 분류 opus-low→opus-medium(q26 첫 코드), 오르빗 opus-low→opus-medium(q29 판정 누락, 2회)
